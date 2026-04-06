@@ -1,18 +1,15 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/assistassets-ai/.github/main/profile/logo.jpg" alt="assistassets-ai" width="400">
-</p>
+# assistassets-ai
 
-<h3 align="center">assistassets-ai</h3>
-<p align="center"><i>AI-powered financial & asset management tools</i></p>
+**AI-powered financial analysis & proof-of-concept tools.**
 
----
+## Our Tools
 
-Intelligent tools for financial analysis, portfolio management, and asset tracking.
+| App | Description |
+|-----|------------|
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Financial analysis & verification tool |
 
-### Projects
+## Part of the open-bricks ecosystem
 
-FinancialProof
+assistassets-ai is part of [open-bricks](https://github.com/open-bricks) — connecting open-source software, AI infrastructure, and research.
 
----
-
-**License:** MIT
+**AI infrastructure:** [ellmos-ai](https://github.com/ellmos-ai) · **All projects:** [open-bricks](https://github.com/open-bricks)
