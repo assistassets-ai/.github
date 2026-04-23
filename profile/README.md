@@ -1,13 +1,13 @@
 # assistassets-ai
 
-**AI-powered financial analysis and verification tools.**
+**AI-assisted financial analysis and proof-oriented document workflows.**
 
-assistassets-ai builds tools that apply AI to financial document processing and proof management.
+assistassets-ai focuses on software for checking, structuring, and validating finance-related documents and evidence bundles.
 
-## Our Tools
+## Public Projects
 
-| App | Description |
-|-----|-------------|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Financial document verification and analysis |
+| Project | Description |
+|---------|-------------|
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Tool for financial document verification, structured review, and analysis workflows |
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
