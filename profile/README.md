@@ -17,6 +17,8 @@ assistassets-ai builds practical software for checking, structuring, and explori
 
 ## Public Projects
 
+This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
+
 ### Financial Analysis And Evidence Workflows
 
 | Project | Description |
