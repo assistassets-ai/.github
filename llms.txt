@@ -1,0 +1,35 @@
+# assistassets-ai
+
+Canonical organization: https://github.com/assistassets-ai
+
+assistassets-ai hosts local-first software for finance-oriented analysis, evidence review, and assistant workflows. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
+
+## Public repositories
+
+- https://github.com/assistassets-ai/FinancialProof
+  - Local-first Streamlit tool for historical financial market pattern analysis.
+  - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, no trading advice.
+
+- https://github.com/assistassets-ai/.github
+  - Organization profile, community files, and machine-readable context for assistassets-ai.
+  - The visible GitHub organization profile is `profile/README.md`.
+
+## Risk boundary
+
+assistassets-ai projects are not financial advisers, not trading systems, not tax advisers, not legal advisers, and not substitutes for professional review. Treat generated output as exploratory analysis or workflow context only.
+
+## Ecosystem links
+
+- https://github.com/open-bricks
+- https://github.com/file-bricks
+- https://github.com/doc-bricks
+- https://github.com/dev-bricks
+- https://github.com/ellmos-ai
+
+## Preferred search phrases
+
+- assistassets-ai FinancialProof
+- assistassets-ai local-first financial analysis
+- FinancialProof no trading advice
+- FinancialProof Streamlit market analysis
+- assistassets-ai evidence review workflows
