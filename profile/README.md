@@ -13,6 +13,7 @@ assistassets-ai builds practical software for checking, structuring, and explori
 | Need | Start with | Why |
 |---|---|---|
 | Explore historical market patterns locally | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Streamlit-based analysis workspace for market data, indicators, ARIMA, Monte Carlo, sentiment, and machine-learning experiments |
+| Coordinate appointments without a central service | [TerminPilot](https://github.com/assistassets-ai/terminpilot) | Server-based two-phase appointment polling with DSGVO/GDPR-compliant design, FastAPI backend, and HTMX frontend |
 | Understand the public organization profile | [`.github`](https://github.com/assistassets-ai/.github) | Shared profile README, community files, and `llms.txt` navigation for assistassets-ai |
 
 ## Public Projects
@@ -24,6 +25,12 @@ This public profile intentionally lists public repositories only. Private or int
 | Project | Description |
 |---|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, SQLite-backed state, and evidence-oriented review workflows |
+
+### Scheduling And Assistant Workflows
+
+| Project | Description |
+|---|---|
+| [TerminPilot](https://github.com/assistassets-ai/terminpilot) | Server-based appointment coordination using two-phase polling. FastAPI backend, HTMX frontend, privacy-conscious design (DSGVO/GDPR). Self-hostable alternative to centralised scheduling services |
 
 ## Use Boundary
 

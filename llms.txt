@@ -10,6 +10,10 @@ assistassets-ai hosts local-first software for finance-oriented analysis, eviden
   - Local-first Streamlit tool for historical financial market pattern analysis.
   - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, no trading advice.
 
+- https://github.com/assistassets-ai/terminpilot
+  - Server-based appointment coordination with two-phase polling. DSGVO/GDPR-compliant, self-hostable.
+  - Topics and search phrases: appointment coordination, two-phase polling, doodle alternative, FastAPI scheduling, HTMX frontend, GDPR scheduling tool, DSGVO terminkoordination, self-hosted calendar, privacy-first scheduling.
+
 - https://github.com/assistassets-ai/.github
   - Organization profile, community files, and machine-readable context for assistassets-ai.
   - The visible GitHub organization profile is `profile/README.md`.
@@ -33,3 +37,7 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - FinancialProof no trading advice
 - FinancialProof Streamlit market analysis
 - assistassets-ai evidence review workflows
+- assistassets-ai TerminPilot
+- assistassets-ai appointment scheduling GDPR
+- TerminPilot two-phase polling
+- TerminPilot doodle alternative self-hosted
