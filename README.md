@@ -18,6 +18,6 @@ This repository controls the public profile text shown on the assistassets-ai Gi
 
 ## Organization Focus
 
-assistassets-ai hosts local-first tools for financial analysis, evidence review, and assistant-style productivity workflows. Public repositories should keep risk boundaries visible: no trading advice, no investment recommendation, no legal or tax advice, and no claim that software output is a professional decision.
+assistassets-ai hosts local-first tools for financial analysis and evidence review. Public repositories should keep risk boundaries visible: no trading advice, no investment recommendation, no legal or tax advice, and no claim that software output is a professional decision.
 
 Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](https://github.com/open-bricks) ecosystem.

@@ -1,8 +1,10 @@
 # assistassets-ai
 
+Last-checked: 2026-06-11
+
 Canonical organization: https://github.com/assistassets-ai
 
-assistassets-ai hosts local-first software for finance-oriented analysis, evidence review, and assistant workflows. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
+assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
 
 ## Public repositories
 
@@ -10,13 +12,11 @@ assistassets-ai hosts local-first software for finance-oriented analysis, eviden
   - Local-first Streamlit tool for historical financial market pattern analysis.
   - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, no trading advice.
 
-- https://github.com/assistassets-ai/terminpilot
-  - Server-based appointment coordination with two-phase polling. DSGVO/GDPR-compliant, self-hostable.
-  - Topics and search phrases: appointment coordination, two-phase polling, doodle alternative, FastAPI scheduling, HTMX frontend, GDPR scheduling tool, DSGVO terminkoordination, self-hosted calendar, privacy-first scheduling.
-
 - https://github.com/assistassets-ai/.github
   - Organization profile, community files, and machine-readable context for assistassets-ai.
   - The visible GitHub organization profile is `profile/README.md`.
+
+Private or internal repositories are intentionally omitted from this public index.
 
 ## Risk boundary
 
@@ -37,7 +37,3 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - FinancialProof no trading advice
 - FinancialProof Streamlit market analysis
 - assistassets-ai evidence review workflows
-- assistassets-ai TerminPilot
-- assistassets-ai appointment scheduling GDPR
-- TerminPilot two-phase polling
-- TerminPilot doodle alternative self-hosted
