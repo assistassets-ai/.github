@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.jpg" alt="assistassets-ai logo" width="925">
+  <img src="./logo.jpg" alt="assistassets-ai logo" width="420">
 </p>
 
 # assistassets-ai
