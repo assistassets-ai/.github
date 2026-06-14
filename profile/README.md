@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="./logo.jpg" alt="assistassets-ai logo" width="420">
-</p>
-
 # assistassets-ai
 
 <!-- public-index-last-checked: 2026-06-11 -->
+
+![assistassets-ai logo](logo.jpg)
 
 **Local-first tools for finance-oriented evidence review and market-pattern exploration with clear no-advice boundaries.**
 
