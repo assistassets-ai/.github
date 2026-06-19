@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-06-11 -->
+<!-- public-index-last-checked: 2026-06-20 -->
 
 ![assistassets-ai logo](logo.jpg)
 
@@ -18,6 +18,8 @@ assistassets-ai builds practical software for checking, structuring, and explori
 ## Public Projects
 
 This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
+
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-06-20.
 
 ### Financial Analysis And Evidence Workflows
 
@@ -40,6 +42,15 @@ assistassets-ai repositories are software and research tools. They are **not fin
 ## Machine-Readable Context
 
 For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/.github/blob/main/llms.txt). It lists canonical repositories, public project roles, risk boundaries, and preferred search phrases for the assistassets-ai organization.
+
+## Search Phrases
+
+- assistassets-ai FinancialProof
+- local-first financial analysis
+- Streamlit market analysis workspace
+- historical market pattern exploration
+- finance evidence review workflow
+- no trading advice software
 
 ## Ecosystem
 
