@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-06-20 -->
+<!-- public-index-last-checked: 2026-07-03 -->
 
 ![assistassets-ai logo](logo.jpg)
 
@@ -12,20 +12,23 @@ assistassets-ai builds practical software for checking, structuring, and explori
 
 | Need | Start with | Why |
 |---|---|---|
-| Explore historical market patterns locally | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Streamlit-based analysis workspace for market data, indicators, ARIMA, Monte Carlo, sentiment, and machine-learning experiments |
+| Explore historical market patterns locally | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Streamlit-based analysis workspace for market data, technical indicators, ARIMA, Monte Carlo, sentiment, SQLite-backed state, and machine-learning experiments |
 | Understand the public organization profile | [`.github`](https://github.com/assistassets-ai/.github) | Shared profile README, community files, and `llms.txt` navigation for assistassets-ai |
 
-## Public Projects
+## Public Repository Directory
 
 This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-06-20.
-
-### Financial Analysis And Evidence Workflows
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-07-03.
 
 | Project | Description |
 |---|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, SQLite-backed state, and evidence-oriented review workflows |
+| [`.github`](https://github.com/assistassets-ai/.github) | Organization landing page, shared community files, profile assets, workflow templates, and machine-readable `llms.txt` context |
+
+## Discovery Focus
+
+FinancialProof is the current public product surface. The best external search framing is precise and risk-aware: local-first finance analysis, market-pattern exploration, Streamlit dashboards, SQLite-backed review state, and no-financial-advice boundaries.
 
 ## Use Boundary
 
@@ -51,6 +54,9 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 - historical market pattern exploration
 - finance evidence review workflow
 - no trading advice software
+- no financial advice Streamlit dashboard
+- FinancialProof market evidence review
+- SQLite-backed finance analysis workspace
 
 ## Ecosystem
 

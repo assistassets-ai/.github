@@ -1,18 +1,18 @@
 # assistassets-ai
 
-Last-checked: 2026-06-20
+Last-checked: 2026-07-03
 
 Canonical organization: https://github.com/assistassets-ai
 
 assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
 
-Public repository count checked against GitHub on 2026-06-20: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-07-03: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 
 - https://github.com/assistassets-ai/FinancialProof
-  - Local-first Streamlit tool for historical financial market pattern analysis.
-  - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, no trading advice.
+  - Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, sentiment analysis, SQLite-backed state, and evidence-oriented review.
+  - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, market evidence review, no trading advice, no financial advice.
 
 - https://github.com/assistassets-ai/.github
   - Organization profile, community files, and machine-readable context for assistassets-ai.
@@ -38,7 +38,10 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - assistassets-ai local-first financial analysis
 - assistassets-ai finance evidence review workflow
 - FinancialProof no trading advice
+- FinancialProof no financial advice
 - FinancialProof Streamlit market analysis
 - FinancialProof historical market pattern exploration
+- FinancialProof market evidence review
 - local-first Streamlit finance workspace
+- SQLite-backed finance analysis workspace
 - assistassets-ai evidence review workflows
