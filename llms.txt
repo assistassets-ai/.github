@@ -1,18 +1,19 @@
 # assistassets-ai
 
-Last-checked: 2026-07-03
+Last-checked: 2026-07-15
 
 Canonical organization: https://github.com/assistassets-ai
 
 assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
 
-Public repository count checked against GitHub on 2026-07-03: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-07-15: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 
 - https://github.com/assistassets-ai/FinancialProof
-  - Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, sentiment analysis, SQLite-backed state, and evidence-oriented review.
-  - Topics and search phrases: local-first financial analysis, Streamlit finance tool, market data exploration, technical indicators, ARIMA, Monte Carlo, sentiment analysis, SQLite state, market evidence review, no trading advice, no financial advice.
+  - Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, yfinance data access, sentiment analysis, optional ML/NLP modules, SQLite-backed state, offline/PWA exports, and evidence-oriented review.
+  - Public technical profile: Python 3.10+, Streamlit, SQLite, yfinance, Plotly, pandas, numpy, scipy, statsmodels, scikit-learn, TensorFlow and transformers; 211 automated unit/regression tests documented in the public project context.
+  - Topics and search phrases: local-first financial analysis, Streamlit finance tool, local-first Streamlit stock analysis, market data exploration, historical technical indicators, yfinance dashboard, ARIMA, Monte Carlo, sentiment analysis, SQLite watchlist, PWA companion, market evidence review, no trading advice, no financial advice.
 
 - https://github.com/assistassets-ai/.github
   - Organization profile, community files, and machine-readable context for assistassets-ai.
@@ -41,6 +42,9 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - FinancialProof no financial advice
 - FinancialProof Streamlit market analysis
 - FinancialProof historical market pattern exploration
+- FinancialProof local-first Streamlit stock analysis
+- FinancialProof yfinance SQLite watchlist
+- FinancialProof workspace export PWA companion
 - FinancialProof market evidence review
 - local-first Streamlit finance workspace
 - SQLite-backed finance analysis workspace

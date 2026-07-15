@@ -1,34 +1,41 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-07-03 -->
+<!-- public-index-last-checked: 2026-07-15 -->
 
 ![assistassets-ai logo](logo.jpg)
 
 **Local-first tools for finance-oriented evidence review and market-pattern exploration with clear no-advice boundaries.**
 
-assistassets-ai builds practical software for checking, structuring, and exploring finance-related data or evidence bundles on the user's own machine first. The public work emphasizes transparent analysis workflows, reproducible local state, and cautious wording around regulated domains.
+assistassets-ai builds practical software for checking, structuring, and exploring finance-related data or evidence bundles on the user's own machine first. The public work emphasizes transparent analysis workflows, reproducible local state, inspectable exports, and cautious wording around regulated domains.
 
 ## Start Here
 
 | Need | Start with | Why |
 |---|---|---|
-| Explore historical market patterns locally | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Streamlit-based analysis workspace for market data, technical indicators, ARIMA, Monte Carlo, sentiment, SQLite-backed state, and machine-learning experiments |
+| Explore historical market patterns locally | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Streamlit-based analysis workspace for market data, yfinance access, technical indicators, ARIMA, Monte Carlo, sentiment, SQLite-backed state, optional ML/NLP modules, and offline/PWA exports |
 | Understand the public organization profile | [`.github`](https://github.com/assistassets-ai/.github) | Shared profile README, community files, and `llms.txt` navigation for assistassets-ai |
 
 ## Public Repository Directory
 
 This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-07-03.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-07-15.
 
 | Project | Description |
 |---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, SQLite-backed state, and evidence-oriented review workflows |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, yfinance data access, SQLite-backed state, optional ML/NLP modules, offline/PWA exports, and evidence-oriented review workflows |
 | [`.github`](https://github.com/assistassets-ai/.github) | Organization landing page, shared community files, profile assets, workflow templates, and machine-readable `llms.txt` context |
+
+## Public Activity Snapshot
+
+| Project | Latest public push | Public role |
+|---|---:|---|
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | 2026-07-13 | Active product repository |
+| [`.github`](https://github.com/assistassets-ai/.github) | 2026-07-15 | Active organization profile |
 
 ## Discovery Focus
 
-FinancialProof is the current public product surface. The best external search framing is precise and risk-aware: local-first finance analysis, market-pattern exploration, Streamlit dashboards, SQLite-backed review state, and no-financial-advice boundaries.
+FinancialProof is the current public product surface. The best external search framing is precise and risk-aware: local-first finance analysis, Streamlit stock-analysis dashboards, historical technical indicators, yfinance data access, SQLite-backed watchlists, offline/PWA exports, and no-financial-advice boundaries.
 
 ## Use Boundary
 
@@ -50,8 +57,11 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 
 - assistassets-ai FinancialProof
 - local-first financial analysis
+- local-first Streamlit stock analysis
 - Streamlit market analysis workspace
 - historical market pattern exploration
+- historical technical indicators yfinance SQLite watchlist
+- FinancialProof workspace export PWA companion
 - finance evidence review workflow
 - no trading advice software
 - no financial advice Streamlit dashboard
