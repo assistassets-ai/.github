@@ -1,12 +1,12 @@
 # assistassets-ai
 
-Last-checked: 2026-07-15
+Last-checked: 2026-07-25
 
 Canonical organization: https://github.com/assistassets-ai
 
 assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
 
-Public repository count checked against GitHub on 2026-07-15: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-07-25: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 
@@ -32,6 +32,10 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - https://github.com/doc-bricks
 - https://github.com/dev-bricks
 - https://github.com/ellmos-ai
+- https://github.com/research-line
+- https://github.com/biotec-line
+- https://github.com/entertain-and-more
+- https://github.com/lukisch
 
 ## Preferred search phrases
 
@@ -49,3 +53,4 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - local-first Streamlit finance workspace
 - SQLite-backed finance analysis workspace
 - assistassets-ai evidence review workflows
+

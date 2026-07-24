@@ -1,12 +1,43 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-07-15 -->
+<!-- public-index-last-checked: 2026-07-25 -->
 
-![assistassets-ai logo](logo.jpg)
+<p align="center">
+  <img src="logo.jpg" alt="assistassets-ai logo" width="180" />
+</p>
 
-**Local-first tools for finance-oriented evidence review and market-pattern exploration with clear no-advice boundaries.**
+<p align="center">
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/GitHub-assistassets--ai-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks ecosystem" /></a>
+  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Domain-Local--First%20Finance-008080?style=for-the-badge" alt="Local First Finance" /></a>
+  <a href="#use-boundary"><img src="https://img.shields.io/badge/Policy-No--Advice%20Boundary-e74c3c?style=for-the-badge" alt="No Advice Boundary" /></a>
+</p>
+
+<h3 align="center">Local-first tools for finance-oriented evidence review and market-pattern exploration with clear no-advice boundaries</h3>
 
 assistassets-ai builds practical software for checking, structuring, and exploring finance-related data or evidence bundles on the user's own machine first. The public work emphasizes transparent analysis workflows, reproducible local state, inspectable exports, and cautious wording around regulated domains.
+
+---
+
+## Architecture & Data Flow
+
+```mermaid
+graph TD
+    A[Market Data Sources / yfinance] -->|Fetch & Cache| B[(Local SQLite Database)]
+    B --> C[Streamlit Analytics Workspace]
+    C --> D[Technical Indicators & Scenario Engine]
+    D --> E[ARIMA / Monte Carlo / Sentiment]
+    C --> F[Redacted JSON Workspace Export]
+    F --> G[Read-Only Offline PWA Companion]
+
+    style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style B fill:#0f172a,stroke:#008080,stroke-width:2px,color:#fff
+    style C fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#fff
+    style D fill:#311042,stroke:#c084fc,stroke-width:2px,color:#fff
+    style E fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#fff
+    style F fill:#451a03,stroke:#fb923c,stroke-width:2px,color:#fff
+    style G fill:#3f0f1d,stroke:#f43f5e,stroke-width:2px,color:#fff
+```
 
 ## Start Here
 
@@ -19,19 +50,19 @@ assistassets-ai builds practical software for checking, structuring, and explori
 
 This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on 2026-07-15.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-07-25**. No active public repository is missing from this directory.
 
-| Project | Description |
-|---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, yfinance data access, SQLite-backed state, optional ML/NLP modules, offline/PWA exports, and evidence-oriented review workflows |
-| [`.github`](https://github.com/assistassets-ai/.github) | Organization landing page, shared community files, profile assets, workflow templates, and machine-readable `llms.txt` context |
+| Project | Stack & Coverage | Description |
+|---|---|---|
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 211 tests | Local-first Streamlit tool for historical financial market pattern analysis, technical indicators, scenario exploration, yfinance data access, SQLite-backed state, optional ML/NLP modules, offline/PWA exports, and evidence-oriented review workflows |
+| [`.github`](https://github.com/assistassets-ai/.github) | Markdown, GitHub Profile, `llms.txt` | Organization landing page, shared community files, profile assets, workflow templates, and machine-readable `llms.txt` context |
 
 ## Public Activity Snapshot
 
-| Project | Latest public push | Public role |
-|---|---:|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | 2026-07-13 | Active product repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | 2026-07-15 | Active organization profile |
+| Project | Default branch | Latest public push | Public role |
+|---|---:|---:|---|
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-21 | Active product repository |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-07-25 | Active organization profile and public index |
 
 ## Discovery Focus
 
@@ -39,15 +70,16 @@ FinancialProof is the current public product surface. The best external search f
 
 ## Use Boundary
 
-assistassets-ai repositories are software and research tools. They are **not financial advisers**, **not trading systems**, **not tax or legal advisers**, and **not a substitute for professional review**. Outputs should be treated as exploratory analysis, workflow support, or documentation aids, not as instructions to buy, sell, hold, allocate assets, or make legal, tax, or accounting decisions.
+> [!IMPORTANT]
+> assistassets-ai repositories are software and research tools. They are **not financial advisers**, **not trading systems**, **not tax or legal advisers**, and **not a substitute for professional review**. Outputs should be treated as exploratory historical analysis, workflow support, or documentation aids, not as forecasts, guarantees, or instructions to buy, sell, hold, allocate assets, or make legal, tax, or accounting decisions.
 
 ## Design Principles
 
-- **Local first:** user data, generated artifacts, and analysis state should stay on the user's machine unless an external data source is explicitly configured.
-- **No-advice clarity:** READMEs and UI text should avoid investment, tax, legal, or guaranteed-outcome claims.
-- **Inspectable workflows:** calculations, assumptions, exports, and local state should be documented enough for human and LLM-assisted review.
-- **Practical tooling:** projects should help repeated real workflows, including data import, comparison, review, export, and handoff.
-- **Privacy-conscious defaults:** tools should minimize unnecessary uploads, account requirements, and hidden remote processing.
+- **Local first:** user data, generated artifacts, and analysis state stay on the user's machine unless an external data source is explicitly configured.
+- **No-advice clarity:** READMEs and UI text avoid investment, tax, legal, or guaranteed-outcome claims.
+- **Inspectable workflows:** calculations, assumptions, exports, and local state are documented for human and LLM-assisted review.
+- **Practical tooling:** projects assist repeated real workflows, including data import, comparison, review, export, and handoff.
+- **Privacy-conscious defaults:** tools minimize unnecessary uploads, account requirements, and hidden remote processing.
 
 ## Machine-Readable Context
 
@@ -68,8 +100,19 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 - FinancialProof market evidence review
 - SQLite-backed finance analysis workspace
 
-## Ecosystem
+## Ecosystem & Network
 
-assistassets-ai is the finance-and-assistant branch of the broader brick and AI tool ecosystem:
+assistassets-ai is the finance-and-assistant branch of the broader local-first software and research ecosystem:
 
-[open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [doc-bricks](https://github.com/doc-bricks) | [dev-bricks](https://github.com/dev-bricks) | [ellmos-ai](https://github.com/ellmos-ai)
+| Organization | Focus Area |
+|---|---|
+| [open-bricks](https://github.com/open-bricks) | Dachorganisation / Umbrella org for local-first desktop software & tools |
+| [file-bricks](https://github.com/file-bricks) | PySide6 desktop file management, sync, and indexing utilities |
+| [doc-bricks](https://github.com/doc-bricks) | Document processing, markdown tools, and reader utilities |
+| [dev-bricks](https://github.com/dev-bricks) | Developer tools, test environments, and CLI utilities |
+| [ellmos-ai](https://github.com/ellmos-ai) | AI infrastructure, MCP servers, agent frameworks, and orchestration |
+| [research-line](https://github.com/research-line) | Scientific research, mathematical proofs, and open-science repositories |
+| [biotec-line](https://github.com/biotec-line) | Bioinformatics, VCF handling, and genetic data tools |
+| [entertain-and-more](https://github.com/entertain-and-more) | Terminal games, audio tools, and entertainment software |
+| [lukisch](https://github.com/lukisch) | Personal GitHub developer profile |
+
