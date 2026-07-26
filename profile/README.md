@@ -3,6 +3,10 @@
 <!-- public-index-last-checked: 2026-07-26 -->
 
 <p align="center">
+  🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
+</p>
+
+<p align="center">
   <img src="logo.jpg" alt="assistassets-ai logo" width="180" />
 </p>
 
@@ -10,6 +14,7 @@
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/GitHub-assistassets--ai-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks ecosystem" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Domain-Local--First%20Finance-008080?style=for-the-badge" alt="Local First Finance" /></a>
+  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Stack-Python%20%7C%20Streamlit%20%7C%20SQLite-3776AB?style=for-the-badge&logo=python" alt="Python Streamlit SQLite" /></a>
   <a href="#use-boundary"><img src="https://img.shields.io/badge/Policy-No--Advice%20Boundary-e74c3c?style=for-the-badge" alt="No Advice Boundary" /></a>
 </p>
 
@@ -17,18 +22,21 @@
 
 assistassets-ai builds practical software for checking, structuring, and exploring finance-related data or evidence bundles on the user's own machine first. The public work emphasizes transparent analysis workflows, reproducible local state, inspectable exports, and cautious wording around regulated domains.
 
+> [!NOTE]
+> **Machine-Readable Navigation Context**: AI agents and automated tools can inspect [`llms.txt`](https://github.com/assistassets-ai/.github/blob/main/llms.txt) for canonical repositories, public project roles, risk boundaries, and preferred search phrases.
+
 ---
 
 ## Architecture & Data Flow
 
 ```mermaid
 graph TD
-    A[Market Data Sources / yfinance] -->|Fetch & Cache| B[(Local SQLite Database)]
-    B --> C[Streamlit Analytics Workspace]
-    C --> D[Technical Indicators & Scenario Engine]
-    D --> E[ARIMA / Monte Carlo / Sentiment]
-    C --> F[Redacted JSON Workspace Export]
-    F --> G[Read-Only Offline PWA Companion]
+    A["Market Data Sources (yfinance / CSV)"] -->|Fetch & Cache| B[("Local SQLite Database")]
+    B --> C["Streamlit Analytics Workspace"]
+    C --> D["Technical Indicators & Scenario Engine"]
+    D --> E["ARIMA / Monte Carlo / Sentiment"]
+    C --> F["Redacted JSON Workspace Export"]
+    F --> G["Read-Only Offline PWA Companion"]
 
     style A fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
     style B fill:#0f172a,stroke:#008080,stroke-width:2px,color:#fff
@@ -61,7 +69,7 @@ Verified public index: `FinancialProof` and `.github` were checked against the l
 
 | Project | Default branch | Latest public push | Public role |
 |---|---:|---:|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-21 | Active product repository |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active product repository |
 | [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-07-26 | Active organization profile and public index |
 
 ## Discovery Focus
@@ -115,4 +123,3 @@ assistassets-ai is the finance-and-assistant branch of the broader local-first s
 | [biotec-line](https://github.com/biotec-line) | Bioinformatics, VCF handling, and genetic data tools |
 | [entertain-and-more](https://github.com/entertain-and-more) | Terminal games, audio tools, and entertainment software |
 | [lukisch](https://github.com/lukisch) | Personal GitHub developer profile |
-

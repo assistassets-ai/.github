@@ -17,7 +17,7 @@ Public repository count checked against GitHub on 2026-07-26: 2 (`FinancialProof
 
 - https://github.com/assistassets-ai/.github
   - Organization profile, community files, and machine-readable context for assistassets-ai.
-  - The visible GitHub organization profile is `profile/README.md`.
+  - The visible GitHub organization profile is `profile/README.md` (German translation: `profile/README_de.md`).
 
 Private or internal repositories are intentionally omitted from this public index.
 
@@ -53,4 +53,3 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 - local-first Streamlit finance workspace
 - SQLite-backed finance analysis workspace
 - assistassets-ai evidence review workflows
-

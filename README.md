@@ -2,7 +2,7 @@
 
 Organization profile and shared community files for [assistassets-ai](https://github.com/assistassets-ai).
 
-This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md).
+This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
 Public index last checked: **2026-07-26**.
 
@@ -10,7 +10,8 @@ Public index last checked: **2026-07-26**.
 
 | Path | Purpose |
 |---|---|
-| [`profile/README.md`](profile/README.md) | Public organization profile shown on GitHub |
+| [`profile/README.md`](profile/README.md) | Public organization profile shown on GitHub (English) |
+| [`profile/README_de.md`](profile/README_de.md) | Public organization profile shown on GitHub (Deutsch) |
 | `profile/logo.jpg` | Organization logo used in the profile README |
 | [`llms.txt`](llms.txt) | Machine-readable organization context for crawlers and LLM tools |
 | `CODE_OF_CONDUCT.md` | Shared community conduct baseline |
@@ -39,7 +40,7 @@ Current public index: **2 active public repositories** checked against the live 
 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-21 | Active public product surface |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active public product surface |
 | [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-07-26 | Active organization profile and public index |
 
 ## Public Surface
@@ -47,7 +48,8 @@ Current public index: **2 active public repositories** checked against the live 
 | Surface | Purpose |
 |---|---|
 | [Organization profile](https://github.com/assistassets-ai) | Public start page for humans discovering the assistassets-ai finance-tool branch |
-| [`profile/README.md`](profile/README.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary |
+| [`profile/README.md`](profile/README.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (English) |
+| [`profile/README_de.md`](profile/README_de.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (Deutsch) |
 | [`llms.txt`](llms.txt) | Compact crawler and LLM navigation context with canonical repositories and search phrases |
 
 ## Discovery Language
@@ -66,4 +68,3 @@ Use these phrases consistently when describing assistassets-ai publicly:
 - no trading advice software
 - no financial advice Streamlit dashboard
 - FinancialProof market evidence review
-
