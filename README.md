@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md).
 
-Public index last checked: **2026-07-25**.
+Public index last checked: **2026-07-26**.
 
 ## Contents
 
@@ -28,7 +28,7 @@ Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](
 
 This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-07-25**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-07-26**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|
@@ -40,7 +40,7 @@ Current public index: **2 active public repositories** checked against the live 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-21 | Active public product surface |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-07-25 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-07-26 | Active organization profile and public index |
 
 ## Public Surface
 
