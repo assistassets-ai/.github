@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Maintenance (2026-07-29)
+- Re-verified the live public organization index: `FinancialProof` and `.github` are the two active public repositories; all four landing-page indexes remain complete.
+
 ### Added
 - Created `profile/README_de.md` for full German i18n parity of the organization landing page.
 - Added language switcher bar (`English` | `Deutsch`) to `profile/README.md` and `profile/README_de.md`.
@@ -14,6 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Shields.io technology badges (`Python | Streamlit | SQLite`).
 
 ### Maintenance
-- Updated organization public index verification timestamp (`2026-07-26`) across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Updated organization public index verification timestamp (`2026-07-29`) across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
 - Updated `FinancialProof` latest public push date in activity snapshot (`2026-07-25`).
 - Verified repository status and ecosystem index alignment for assistassets-ai.
