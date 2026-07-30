@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
-Public index last checked: **2026-07-29**.
+Public index last checked: **2026-07-30**.
 
 ## Contents
 
@@ -29,7 +29,7 @@ Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](
 
 This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-07-29**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-07-30**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|

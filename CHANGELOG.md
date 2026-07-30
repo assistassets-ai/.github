@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Maintenance (2026-07-30)
+- Re-verified the live public organization index: `FinancialProof` and `.github` remain the active public repositories; all four landing-page indexes (`README.md`, `profile/README.md`, `profile/README_de.md`, `llms.txt`) updated to 2026-07-30.
+
 ### Maintenance (2026-07-29)
 - Re-verified the live public organization index: `FinancialProof` and `.github` are the two active public repositories; all four landing-page indexes remain complete.
 

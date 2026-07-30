@@ -1,12 +1,12 @@
 # assistassets-ai
 
-Last-checked: 2026-07-29
+Last-checked: 2026-07-30
 
 Canonical organization: https://github.com/assistassets-ai
 
 assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
 
-Public repository count checked against GitHub on 2026-07-29: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-07-30: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 

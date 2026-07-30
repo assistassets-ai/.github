@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-07-29 -->
+<!-- public-index-last-checked: 2026-07-30 -->
 
 <p align="center">
   🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
@@ -58,7 +58,7 @@ graph TD
 
 This public profile intentionally lists public repositories only. Private or internal work is omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-07-29**. No active public repository is missing from this directory.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-07-30**. No active public repository is missing from this directory.
 
 | Project | Stack & Coverage | Description |
 |---|---|---|
