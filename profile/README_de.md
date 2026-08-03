@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-07-30 -->
+<!-- public-index-last-checked: 2026-08-03 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -56,9 +56,9 @@ graph TD
 
 ## Öffentliches Repository-Verzeichnis
 
-Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Arbeiten sind im öffentlichen Index nicht enthalten.
+Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Arbeiten (wie `terminpilot` und `DEV_FullAssistantHub_SUITE`) sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **30.07.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **03.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 | Projekt | Stack & Abdeckung | Beschreibung |
 |---|---|---|
@@ -70,7 +70,7 @@ Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **30
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 25.07.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 26.07.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 03.08.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 
