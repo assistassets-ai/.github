@@ -1,12 +1,12 @@
 # assistassets-ai
 
-Last-checked: 2026-08-03
+Last-checked: 2026-08-06
 
 Canonical organization: https://github.com/assistassets-ai
 
-assistassets-ai hosts local-first software for finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice.
+assistassets-ai hosts local-first software assistants: practical tools that help with real, recurring tasks on the user's own machine first. The first public assistant, FinancialProof, focuses on finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice. Additional local-first assistants are currently in preparation and will be added to this index once ready for public release.
 
-Public repository count checked against GitHub on 2026-08-03: 2 (`FinancialProof` and `.github`). Private or internal repositories (such as `terminpilot` and `DEV_FullAssistantHub_SUITE`) are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-08-06: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 
@@ -23,7 +23,7 @@ Private or internal repositories are intentionally omitted from this public inde
 
 ## Risk boundary
 
-assistassets-ai projects are not financial advisers, not trading systems, not tax advisers, not legal advisers, and not substitutes for professional review. Treat generated output as exploratory analysis or workflow context only.
+This boundary currently documents FinancialProof, the organization's first public assistant. Future assistants will document their own domain-appropriate boundaries as they are released. assistassets-ai projects are not financial advisers, not trading systems, not tax advisers, not legal advisers, and not substitutes for professional review. Treat generated output as exploratory analysis or workflow context only.
 
 ## Ecosystem links
 
@@ -39,6 +39,8 @@ assistassets-ai projects are not financial advisers, not trading systems, not ta
 
 ## Preferred search phrases
 
+- assistassets-ai local-first software assistants
+- local-first assistant family
 - assistassets-ai FinancialProof
 - assistassets-ai local-first financial analysis
 - assistassets-ai finance evidence review workflow

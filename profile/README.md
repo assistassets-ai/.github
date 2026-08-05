@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-08-03 -->
+<!-- public-index-last-checked: 2026-08-06 -->
 
 <p align="center">
   🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
@@ -13,21 +13,29 @@
 <p align="center">
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/GitHub-assistassets--ai-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks ecosystem" /></a>
-  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Domain-Local--First%20Finance-008080?style=for-the-badge" alt="Local First Finance" /></a>
-  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Stack-Python%20%7C%20Streamlit%20%7C%20SQLite-3776AB?style=for-the-badge&logo=python" alt="Python Streamlit SQLite" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Domain-Local--First%20Assistants-008080?style=for-the-badge" alt="Local First Assistants" /></a>
+  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Featured-FinancialProof-3776AB?style=for-the-badge&logo=python" alt="Featured: FinancialProof" /></a>
   <a href="#use-boundary"><img src="https://img.shields.io/badge/Policy-No--Advice%20Boundary-e74c3c?style=for-the-badge" alt="No Advice Boundary" /></a>
 </p>
 
-<h3 align="center">Local-first tools for finance-oriented evidence review and market-pattern exploration with clear no-advice boundaries</h3>
+<h3 align="center">Local-first software assistants — starting with finance-oriented evidence review and clear no-advice boundaries</h3>
 
-assistassets-ai builds practical software for checking, structuring, and exploring finance-related data or evidence bundles on the user's own machine first. The public work emphasizes transparent analysis workflows, reproducible local state, inspectable exports, and cautious wording around regulated domains.
+assistassets-ai builds local-first software assistants: practical tools that help with real, recurring tasks on the user's own machine first, without routing personal or domain-specific data through third-party clouds by default. The public work emphasizes transparent workflows, reproducible local state, inspectable exports, and careful, domain-appropriate boundaries.
+
+The first public assistant is **FinancialProof**, a finance-oriented evidence-review and market-pattern-exploration tool with a strict no-advice boundary (see [Use Boundary](#use-boundary) below). Additional local-first assistants — for everyday tasks such as appointment coordination and personal task assistance — are currently in preparation and will join this public index once they are ready for public release.
 
 > [!NOTE]
 > **Machine-Readable Navigation Context**: AI agents and automated tools can inspect [`llms.txt`](https://github.com/assistassets-ai/.github/blob/main/llms.txt) for canonical repositories, public project roles, risk boundaries, and preferred search phrases.
 
 ---
 
-## Architecture & Data Flow
+## Featured Assistant: FinancialProof
+
+<p align="center"><a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner.svg" alt="FinancialProof" width="680" style="border:2px solid #008080;border-radius:8px;display:block;margin:0 auto"></a></p>
+
+FinancialProof is the organization's first public local-first assistant: a Streamlit-based workspace for historical market-pattern analysis, technical indicators, and evidence-oriented review, with a strict no-advice boundary.
+
+### Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -56,9 +64,11 @@ graph TD
 
 ## Public Repository Directory
 
-This public profile intentionally lists public repositories only. Private or internal repositories (such as `terminpilot` and `DEV_FullAssistantHub_SUITE`) are intentionally omitted from the public index.
+This public profile intentionally lists public repositories only. Private or internal repositories are intentionally omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-08-03**. No active public repository is missing from this directory.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-08-06**. No active public repository is missing from this directory.
+
+Additional local-first assistants are currently in private development and will be added to this directory once they are ready for public release.
 
 | Project | Stack & Coverage | Description |
 |---|---|---|
@@ -70,23 +80,25 @@ Verified public index: `FinancialProof` and `.github` were checked against the l
 | Project | Default branch | Latest public push | Public role |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active product repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-03 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-06 | Active organization profile and public index |
 
 ## Discovery Focus
 
-FinancialProof is the current public product surface. The best external search framing is precise and risk-aware: local-first finance analysis, Streamlit stock-analysis dashboards, historical technical indicators, yfinance data access, SQLite-backed watchlists, offline/PWA exports, and no-financial-advice boundaries.
+FinancialProof is the organization's current featured assistant and public product surface. The best external search framing is precise and risk-aware: local-first finance analysis, Streamlit stock-analysis dashboards, historical technical indicators, yfinance data access, SQLite-backed watchlists, offline/PWA exports, and no-financial-advice boundaries.
 
 ## Use Boundary
+
+This boundary currently documents FinancialProof, the organization's first public assistant. Future assistants will document their own domain-appropriate boundaries as they are released.
 
 > [!IMPORTANT]
 > assistassets-ai repositories are software and research tools. They are **not financial advisers**, **not trading systems**, **not tax or legal advisers**, and **not a substitute for professional review**. Outputs should be treated as exploratory historical analysis, workflow support, or documentation aids, not as forecasts, guarantees, or instructions to buy, sell, hold, allocate assets, or make legal, tax, or accounting decisions.
 
 ## Design Principles
 
-- **Local first:** user data, generated artifacts, and analysis state stay on the user's machine unless an external data source is explicitly configured.
-- **No-advice clarity:** READMEs and UI text avoid investment, tax, legal, or guaranteed-outcome claims.
+- **Local first:** user data, generated artifacts, and assistant state stay on the user's machine unless an external data source is explicitly configured.
+- **Domain-appropriate boundary clarity:** each assistant documents its own boundary; FinancialProof, for example, avoids investment, tax, legal, or guaranteed-outcome claims in its READMEs and UI text.
 - **Inspectable workflows:** calculations, assumptions, exports, and local state are documented for human and LLM-assisted review.
-- **Practical tooling:** projects assist repeated real workflows, including data import, comparison, review, export, and handoff.
+- **Practical tooling:** assistants support repeated real workflows, including data import, comparison, review, export, and handoff.
 - **Privacy-conscious defaults:** tools minimize unnecessary uploads, account requirements, and hidden remote processing.
 
 ## Machine-Readable Context
@@ -95,6 +107,8 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 
 ## Search Phrases
 
+- assistassets-ai local-first software assistants
+- local-first assistant family
 - assistassets-ai FinancialProof
 - local-first financial analysis
 - local-first Streamlit stock analysis
@@ -110,7 +124,7 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 
 ## Ecosystem & Network
 
-assistassets-ai is the finance-and-assistant branch of the broader local-first software and research ecosystem:
+assistassets-ai is the local-first assistant branch of the broader local-first software and research ecosystem:
 
 | Organization | Focus Area |
 |---|---|

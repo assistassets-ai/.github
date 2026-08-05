@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
-Public index last checked: **2026-08-03**.
+Public index last checked: **2026-08-06**.
 
 ## Contents
 
@@ -21,15 +21,15 @@ Public index last checked: **2026-08-03**.
 
 ## Organization Focus
 
-assistassets-ai hosts local-first tools for financial analysis and evidence review. Public repositories keep risk boundaries visible: no trading advice, no investment recommendation, no legal or tax advice, no automated order routing, and no claim that software output is a professional decision.
+assistassets-ai hosts local-first software assistants: practical tools that help with real, recurring tasks on the user's own machine first. The first public assistant, FinancialProof, focuses on financial analysis and evidence review; its public repository keeps risk boundaries visible: no trading advice, no investment recommendation, no legal or tax advice, no automated order routing, and no claim that software output is a professional decision. Additional local-first assistants are currently in preparation and will be added to the public index once ready for release.
 
 Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](https://github.com/open-bricks) ecosystem.
 
 ## Public Repository Directory
 
-This profile repository tracks the public assistassets-ai surface. Private or internal repositories (such as `terminpilot` and `DEV_FullAssistantHub_SUITE`) are intentionally omitted from the public index.
+This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-03**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-06**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|
@@ -41,13 +41,13 @@ Current public index: **2 active public repositories** checked against the live 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active public product surface |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-03 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-06 | Active organization profile and public index |
 
 ## Public Surface
 
 | Surface | Purpose |
 |---|---|
-| [Organization profile](https://github.com/assistassets-ai) | Public start page for humans discovering the assistassets-ai finance-tool branch |
+| [Organization profile](https://github.com/assistassets-ai) | Public start page for humans discovering the assistassets-ai local-first assistant branch |
 | [`profile/README.md`](profile/README.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (English) |
 | [`profile/README_de.md`](profile/README_de.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (Deutsch) |
 | [`llms.txt`](llms.txt) | Compact crawler and LLM navigation context with canonical repositories and search phrases |
@@ -56,6 +56,8 @@ Current public index: **2 active public repositories** checked against the live 
 
 Use these phrases consistently when describing assistassets-ai publicly:
 
+- assistassets-ai local-first software assistants
+- local-first assistant family
 - assistassets-ai FinancialProof
 - local-first financial analysis
 - local-first Streamlit stock analysis
