@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.7] - 2026-08-14
 
+- Replaced the privacy regression test's embedded private identifiers with public-repository URL allowlists, generic disclosure guards, and an optional externally supplied denylist, so the guard no longer republishes the data it protects.
+
 ### Added
 - Integrated structured **Capability & Feature Matrix** (`## Capability & Feature Matrix` / `## Leistungs- und Feature-Matrix`) across `profile/README.md` and `profile/README_de.md`, documenting market data ingestion, technical indicators, scenario modeling, sentiment analysis, offline PWA companion, and safety boundaries.
 - Added comprehensive Shields.io badge band including Public Repositories, Ecosystem (`open-bricks`), Domain (`Local-First Assistants`), Featured (`FinancialProof`), Tests Passed (`208 Passed`), Policy (`No-Advice Boundary`), and Context (`llms.txt`).

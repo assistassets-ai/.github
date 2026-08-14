@@ -5,10 +5,20 @@ $files = @(
     (Join-Path $repoRoot 'README.md'),
     (Join-Path $repoRoot 'profile/README.md'),
     (Join-Path $repoRoot 'profile/README_de.md'),
-    (Join-Path $repoRoot 'llms.txt')
+    (Join-Path $repoRoot 'llms.txt'),
+    (Join-Path $repoRoot 'CHANGELOG.md'),
+    (Join-Path $repoRoot 'tests/profile_parity.ps1')
 )
+$parityFiles = $files[0..3]
 $utf8Strict = [System.Text.UTF8Encoding]::new($false, $true)
 $contents = @{}
+$publicRepoNames = @('FinancialProof', '.github')
+$publicContextNames = $publicRepoNames + @('assistassets-ai')
+$privateRepoDenylist = @(
+    $env:PROFILE_PRIVATE_REPO_DENYLIST -split ';' |
+        ForEach-Object { $_.Trim() } |
+        Where-Object { $_ }
+)
 
 foreach ($path in $files) {
     if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
@@ -38,15 +48,48 @@ $required = @(
 )
 
 foreach ($entry in $contents.GetEnumerator()) {
-    foreach ($needle in $required) {
-        if (-not $entry.Value.Contains($needle)) {
-            throw "Missing '$needle' in $($entry.Key)"
+    if ($entry.Key -in $parityFiles) {
+        foreach ($needle in $required) {
+            if (-not $entry.Value.Contains($needle)) {
+                throw "Missing '$needle' in $($entry.Key)"
+            }
         }
     }
-    foreach ($forbidden in @('terminpilot', 'DEV_FullAssistantHub_SUITE', '211')) {
-        if ($entry.Value.Contains($forbidden)) {
-            throw "Forbidden stale/private text '$forbidden' in $($entry.Key)"
+    foreach ($pattern in @(
+        'https://github\.com/assistassets-ai/([A-Za-z0-9_.-]+)',
+        'https://raw\.githubusercontent\.com/assistassets-ai/([A-Za-z0-9_.-]+)',
+        'https://api\.github\.com/repos/assistassets-ai/([A-Za-z0-9_.-]+)'
+    )) {
+        foreach ($match in [regex]::Matches(
+            $entry.Value,
+            $pattern,
+            [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+        )) {
+            if ($match.Groups[1].Value -notin $publicRepoNames) {
+                throw "Non-public repository reference in $($entry.Key)"
+            }
         }
+    }
+    foreach ($line in $entry.Value -split "`r?`n") {
+        if ($line -notmatch '(?i)(?:private|internal|privat|nicht öffentlich)') { continue }
+        if ($line -match '(?i)assistassets-ai/[A-Za-z0-9_.-]+') {
+            throw "Named private/internal repository disclosure in $($entry.Key)"
+        }
+        foreach ($token in [regex]::Matches($line, '`([A-Za-z0-9_.-]+)`')) {
+            $name = $token.Groups[1].Value
+            if ($name -notin $publicContextNames -and $name -notmatch '(?i)\.(?:md|txt|json|ya?ml|ps1)$') {
+                throw "Named private/internal repository disclosure in $($entry.Key)"
+            }
+        }
+    }
+    foreach ($privateRepoName in $privateRepoDenylist) {
+        $privatePattern = '(?i)(?<![A-Za-z0-9_-])' + [regex]::Escape($privateRepoName) + '(?![A-Za-z0-9_-])'
+        if ([regex]::IsMatch($entry.Value, $privatePattern)) {
+            throw "Externally denied private repository reference in $($entry.Key)"
+        }
+    }
+    if ($entry.Key -in $parityFiles -and $entry.Value.Contains('211')) {
+        throw "Forbidden stale test count in $($entry.Key)"
     }
 }
 
