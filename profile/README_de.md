@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-08-06 -->
+<!-- public-index-last-checked: 2026-08-14 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -15,7 +15,9 @@
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks Ökosystem" /></a>
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Dom%C3%A4ne-Local--First%20Assistenten-008080?style=for-the-badge" alt="Local First Assistenten" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Featured-FinancialProof-3776AB?style=for-the-badge&logo=python" alt="Featured: FinancialProof" /></a>
+  <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Tests-208%20Bestanden-4c1?style=for-the-badge" alt="208 Tests Bestanden" /></a>
   <a href="#nutzungsgrenze"><img src="https://img.shields.io/badge/Policy-Keine--Finanzberatung-e74c3c?style=for-the-badge" alt="Keine Finanzberatung" /></a>
+  <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Kontext-llms.txt-orange?style=for-the-badge" alt="llms.txt Kontext" /></a>
 </p>
 
 <h3 align="center">Local-first Software-Assistenten — beginnend mit finanzorientierter Evidenzprüfung und klaren Grenzen gegen Finanzberatung</h3>
@@ -66,21 +68,32 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **06.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **14.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 
 | Projekt | Stack & Abdeckung | Beschreibung |
 |---|---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 211 Tests | Local-first Streamlit-Werkzeug zur historischen Analyse von Finanzmarktmustern, technischen Indikatoren, Szenario-Untersuchungen, yfinance-Datenzugriff, SQLite-gestütztem Zustand, optionalen ML/NLP-Modulen, Offline/PWA-Exporten und evidenzorientierten Review-Workflows |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 208 Tests | Erster öffentlicher local-first Streamlit-Assistent zur historischen Analyse von Finanzmarktmustern, technischen Indikatoren, Szenario-Untersuchungen, yfinance-Datenzugriff, SQLite-gestütztem Zustand, optionalen ML/NLP-Modulen, Offline/PWA-Exporten und evidenzorientierten Review-Workflows |
 | [`.github`](https://github.com/assistassets-ai/.github) | Markdown, GitHub-Profil, `llms.txt` | Organisations-Startseite, gemeinsame Community-Dateien, Profil-Assets, Workflow-Templates und maschinenlesbarer `llms.txt`-Kontext |
+
+## Leistungs- und Feature-Matrix
+
+| Funktion / Bereich | FinancialProof Implementierung | Datenschutz & Lokale Speicherung | Export & Schnittstellen |
+|---|---|---|---|
+| **Marktdaten-Erfassung** | `yfinance` API-Konnektor & lokale CSV-Importe | 100% lokales SQLite-Caching (`~/.financialproof/`) | OHLCV-Rohdatentabellen & Pandas DataFrame Caches |
+| **Technische Analyse** | SMA, EMA, RSI, MACD, Bollinger Bands, ATR | Vollständig lokale Berechnung; 0 Cloud-Zwang | Interaktive Plotly Charts & Kennzahlen-Übersichten |
+| **Szenario-Modellierung** | ARIMA Zeitreihen-Prognosen & Monte-Carlo-Pfade | Berechnung auf dem Endgerät (scipy, statsmodels) | Verteilungsdiagramme & Parameter-Protokolle |
+| **Sentiment-Analyse** | Lokale NLP-Textanalyse & Schlagwort-Scoring | Offline Tokenisierung & Bewertung | Sentiment-Score-Tabellen & Zeitverläufe |
+| **Offline-Begleiter** | Progressive Web App (PWA) Manifest & statischer Viewer | Zero-Tracking; vollständig offline nutzbar | Bereinigte JSON-Workspace-Exporte |
+| **Sicherheits-Leitplanken** | Strikte Keine-Finanzberatung-Hinweise & Risikogrenzen | Deutliche UI-Hinweise in allen Ansichten | Nicht-präskriptive explorative Berichte |
 
 ## Aktueller Aktivitäts-Snapshot
 
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 25.07.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 06.08.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 05.08.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 

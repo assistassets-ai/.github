@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
-Public index last checked: **2026-08-06**.
+Public index last checked: **2026-08-14**.
 
 ## Contents
 
@@ -29,11 +29,11 @@ Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](
 
 This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-06**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-14**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 211 tests | Local-first Streamlit workspace for historical market-pattern analysis, technical indicators, yfinance data access, ARIMA, Monte Carlo, sentiment, optional ML/NLP modules, SQLite-backed state, offline/PWA exports, and evidence-oriented review |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 208 tests | First public local-first assistant: a Streamlit workspace for historical market-pattern analysis, technical indicators, yfinance data access, ARIMA, Monte Carlo, sentiment, optional ML/NLP modules, SQLite-backed state, offline/PWA exports, and evidence-oriented review |
 | [`.github`](https://github.com/assistassets-ai/.github) | Markdown, Profile Assets, `llms.txt` | Organization landing page, shared community files, and machine-readable `llms.txt` context |
 
 ## Current Public Activity
@@ -41,15 +41,15 @@ Current public index: **2 active public repositories** checked against the live 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active public product surface |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-06 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-05 | Active organization profile and public index |
 
 ## Public Surface
 
 | Surface | Purpose |
 |---|---|
 | [Organization profile](https://github.com/assistassets-ai) | Public start page for humans discovering the assistassets-ai local-first assistant branch |
-| [`profile/README.md`](profile/README.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (English) |
-| [`profile/README_de.md`](profile/README_de.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, and risk boundary (Deutsch) |
+| [`profile/README.md`](profile/README.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, capability matrix, and risk boundary (English) |
+| [`profile/README_de.md`](profile/README_de.md) | GitHub-rendered landing page with Start Here, architecture diagram, public repository directory, capability matrix, and risk boundary (Deutsch) |
 | [`llms.txt`](llms.txt) | Compact crawler and LLM navigation context with canonical repositories and search phrases |
 
 ## Discovery Language
@@ -70,3 +70,7 @@ Use these phrases consistently when describing assistassets-ai publicly:
 - no trading advice software
 - no financial advice Streamlit dashboard
 - FinancialProof market evidence review
+
+## Featured Assistant: FinancialProof
+
+FinancialProof is the first public local-first assistant. Its canonical profile banner and repository target are [`assets/banner.svg`](https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner.svg) and [FinancialProof](https://github.com/assistassets-ai/FinancialProof).
