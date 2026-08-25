@@ -98,10 +98,10 @@ $english = $contents[$files[1]]
 $german = $contents[$files[2]]
 $llms = $contents[$files[3]]
 
-if (-not $root.Contains('2026-08-14')) { throw 'Root check date is not 2026-08-14' }
-if (-not $english.Contains('2026-08-14')) { throw 'English profile check date is not 2026-08-14' }
-if (-not $german.Contains('14.08.2026')) { throw 'German profile check date is not 14.08.2026' }
-if (-not $llms.Contains('Last-checked: 2026-08-14')) { throw 'llms check date is not 2026-08-14' }
+if (-not $root.Contains('2026-08-25')) { throw 'Root check date is not 2026-08-25' }
+if (-not $english.Contains('2026-08-25')) { throw 'English profile check date is not 2026-08-25' }
+if (-not $german.Contains('25.08.2026')) { throw 'German profile check date is not 25.08.2026' }
+if (-not $llms.Contains('Last-checked: 2026-08-25')) { throw 'llms check date is not 2026-08-25' }
 if (-not $root.Contains('local-first software assistants')) { throw 'Root assistant-family framing missing' }
 if (-not $english.Contains('local-first software assistants')) { throw 'English assistant-family framing missing' }
 if (-not $llms.Contains('local-first software assistants')) { throw 'llms assistant-family framing missing' }

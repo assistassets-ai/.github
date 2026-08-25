@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
-Public index last checked: **2026-08-14**.
+Public index last checked: **2026-08-25**.
 
 ## Contents
 
@@ -29,7 +29,7 @@ Part of the broader [ellmos-ai](https://github.com/ellmos-ai) and [open-bricks](
 
 This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-14**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-08-25**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|
@@ -41,7 +41,7 @@ Current public index: **2 active public repositories** checked against the live 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active public product surface |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-05 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-25 | Active organization profile and public index |
 
 ## Public Surface
 
@@ -70,6 +70,9 @@ Use these phrases consistently when describing assistassets-ai publicly:
 - no trading advice software
 - no financial advice Streamlit dashboard
 - FinancialProof market evidence review
+- offline-first financial evidence review
+- risk-aware market analysis workspace
+- no-advice local finance assistant
 
 ## Featured Assistant: FinancialProof
 

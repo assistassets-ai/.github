@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-08-14 -->
+<!-- public-index-last-checked: 2026-08-25 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -68,7 +68,7 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **14.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **25.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 
@@ -93,7 +93,7 @@ Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung un
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 25.07.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 05.08.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 25.08.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 
@@ -134,6 +134,9 @@ Für Crawler und KI-Werkzeuge siehe [`llms.txt`](https://github.com/assistassets
 - keine Finanzberatung Streamlit Dashboard
 - FinancialProof Markt Evidenz Prüfung
 - SQLite-gestützter Finanzanalyse Workspace
+- Offline-first Finanz-Evidenz-Prüfung
+- risikobewusster Marktanalyse-Workspace
+- local-first Finanzassistent ohne Beratungsanspruch
 
 ## Ökosystem & Netzwerk
 

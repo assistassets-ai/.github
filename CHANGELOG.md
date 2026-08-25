@@ -5,6 +5,13 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.8] - 2026-08-25
+
+### Maintenance
+- Re-verified the live GitHub organization index: `FinancialProof` and `.github` remain the only active public repositories; private/internal repositories remain intentionally omitted.
+- Synchronized `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt` to index timestamp **2026-08-25** (German: **25.08.2026**).
+- Updated the `.github` activity snapshot and added risk-aware discovery phrases for offline-first financial evidence review and no-advice local finance assistants.
+
 ## [1.0.7] - 2026-08-14
 
 - Replaced the privacy regression test's embedded private identifiers with public-repository URL allowlists, generic disclosure guards, and an optional externally supplied denylist, so the guard no longer republishes the data it protects.
