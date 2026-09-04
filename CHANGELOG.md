@@ -5,6 +5,15 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Maintenance
+- Re-verified on 2026-09-05 through the public GitHub API that `.github` (`main`, latest observed public push 2026-08-25) and `FinancialProof` (`master`, latest observed public push 2026-07-25) are the only two active public repositories.
+- Private and internal repository names and counts remain intentionally omitted.
+- Synchronized the public-index check date across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Moved Bug Report and Feature Request to GitHub's recognized `.github/ISSUE_TEMPLATE/` path, added a Question issue form for profile/community questions, and routed FinancialProof questions to its live Q&A discussion category.
+- Kept organization-wide inheritance claims bounded: repositories with their own issue-template configuration can override these defaults.
+
 ## [1.0.8] - 2026-08-25
 
 ### Maintenance

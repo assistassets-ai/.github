@@ -1,0 +1,35 @@
+name: Question
+description: Ask about the assistassets-ai organization profile or shared community files
+title: "[Question] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question. For FinancialProof product questions, use its Q&A discussion category instead.
+        Do not include passwords, tokens, private repository names, or other sensitive data.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know about the organization profile or shared community files?
+      placeholder: Describe your question clearly and include only public context.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Public context
+      description: Add public links or other non-sensitive context that may help answer the question.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find an answer.
+          required: true
+        - label: I confirm that this report contains no secrets or private repository information.
+          required: true

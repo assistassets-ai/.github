@@ -10,6 +10,13 @@ $files = @(
     (Join-Path $repoRoot 'tests/profile_parity.ps1')
 )
 $parityFiles = $files[0..3]
+$communityFiles = @(
+    (Join-Path $repoRoot '.github/ISSUE_TEMPLATE/bug_report.md'),
+    (Join-Path $repoRoot '.github/ISSUE_TEMPLATE/feature_request.md'),
+    (Join-Path $repoRoot '.github/ISSUE_TEMPLATE/question.yml'),
+    (Join-Path $repoRoot '.github/ISSUE_TEMPLATE/config.yml')
+)
+$files += $communityFiles
 $utf8Strict = [System.Text.UTF8Encoding]::new($false, $true)
 $contents = @{}
 $publicRepoNames = @('FinancialProof', '.github')
@@ -98,10 +105,10 @@ $english = $contents[$files[1]]
 $german = $contents[$files[2]]
 $llms = $contents[$files[3]]
 
-if (-not $root.Contains('2026-08-25')) { throw 'Root check date is not 2026-08-25' }
-if (-not $english.Contains('2026-08-25')) { throw 'English profile check date is not 2026-08-25' }
-if (-not $german.Contains('25.08.2026')) { throw 'German profile check date is not 25.08.2026' }
-if (-not $llms.Contains('Last-checked: 2026-08-25')) { throw 'llms check date is not 2026-08-25' }
+if (-not $root.Contains('2026-09-05')) { throw 'Root check date is not 2026-09-05' }
+if (-not $english.Contains('2026-09-05')) { throw 'English profile check date is not 2026-09-05' }
+if (-not $german.Contains('05.09.2026')) { throw 'German profile check date is not 05.09.2026' }
+if (-not $llms.Contains('Last-checked: 2026-09-05')) { throw 'llms check date is not 2026-09-05' }
 if (-not $root.Contains('local-first software assistants')) { throw 'Root assistant-family framing missing' }
 if (-not $english.Contains('local-first software assistants')) { throw 'English assistant-family framing missing' }
 if (-not $llms.Contains('local-first software assistants')) { throw 'llms assistant-family framing missing' }
@@ -110,5 +117,33 @@ if (-not $english.Contains('## Featured Assistant: FinancialProof')) { throw 'En
 if (-not $german.Contains('## Featured Assistant: FinancialProof')) { throw 'German featured assistant section missing' }
 if (-not $english.Contains('## Capability & Feature Matrix')) { throw 'English Capability & Feature Matrix missing' }
 if (-not $german.Contains('## Leistungs- und Feature-Matrix')) { throw 'German Leistungs- und Feature-Matrix missing' }
+foreach ($content in @($root, $english, $llms)) {
+    foreach ($needle in @('`master`', '`main`', '2026-07-25', '2026-08-25')) {
+        if (-not $content.Contains($needle)) { throw "Public branch/activity snapshot missing '$needle'" }
+    }
+}
+foreach ($needle in @('`master`', '`main`', '25.07.2026', '25.08.2026')) {
+    if (-not $german.Contains($needle)) { throw "German public branch/activity snapshot missing '$needle'" }
+}
 
-Write-Output ('PASS profile parity: {0} files, public_count=2, tests=208, banner=HTTP-verified separately' -f $files.Count)
+foreach ($templatePath in $communityFiles[0..1]) {
+    $template = $contents[$templatePath]
+    if ($template -notmatch '(?s)\A---\r?\nname: .+?\r?\nabout: .+?\r?\ntitle: .+?\r?\nlabels:.*?\r?\nassignees:.*?\r?\n---\r?\n') {
+        throw "Invalid issue-template frontmatter in $templatePath"
+    }
+}
+
+$questionForm = $contents[$communityFiles[2]]
+foreach ($needle in @('name: Question', 'description:', 'body:', 'id: question', 'validations:', 'required: true')) {
+    if (-not $questionForm.Contains($needle)) { throw "Question form missing '$needle'" }
+}
+$issueConfig = $contents[$communityFiles[3]]
+if (-not $issueConfig.Contains('blank_issues_enabled: false')) { throw 'Issue config must disable unstructured blank issues' }
+if (-not $issueConfig.Contains('https://github.com/assistassets-ai/FinancialProof/discussions/categories/q-a')) {
+    throw 'Issue config is missing the verified FinancialProof Q&A route'
+}
+if (Get-ChildItem -LiteralPath (Join-Path $repoRoot 'ISSUE_TEMPLATE') -File -ErrorAction SilentlyContinue) {
+    throw 'Legacy root ISSUE_TEMPLATE files still exist outside GitHub recognized path'
+}
+
+Write-Output ('PASS profile/community parity: {0} files, public_count=2, tests=208, banner=HTTP-verified separately' -f $files.Count)

@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-08-25 -->
+<!-- public-index-last-checked: 2026-09-05 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -68,7 +68,7 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **25.08.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **05.09.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 

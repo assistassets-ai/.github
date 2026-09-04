@@ -6,11 +6,11 @@ Thank you for your interest in contributing! This guide applies to all repositor
 
 ### Reporting Bugs
 1. Check if the issue already exists
-2. Use the **Bug Report** template
+2. Use the **Bug Report** entry shown by the target repository's New Issue chooser
 3. Include steps to reproduce, expected vs. actual behavior
 
 ### Suggesting Features
-1. Use the **Feature Request** template
+1. Use the **Feature Request** entry shown by the target repository's New Issue chooser
 2. Describe the use case, not just the solution
 
 ### Submitting Code
@@ -41,4 +41,6 @@ We follow the [Contributor Covenant v2.1](https://www.contributor-covenant.org/v
 
 ## Questions?
 
-Open a Discussion (Q&A category) or create an issue with the **Question** template.
+- For FinancialProof product questions, use its confirmed [Q&A discussion category](https://github.com/assistassets-ai/FinancialProof/discussions/categories/q-a).
+- For questions about the organization profile or shared community files, use the [Question issue form](https://github.com/assistassets-ai/.github/issues/new?template=question.yml).
+- Other repositories may define their own issue templates and routes; follow the active New Issue chooser in the target repository.
