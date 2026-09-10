@@ -5,7 +5,13 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.9] - 2026-09-10
+
+### Maintenance
+- Re-verified on 2026-09-10 through the live GitHub API that FinancialProof (master, latest observed push 2026-07-25) and .github (main, latest observed push 2026-09-05) remain the only active public repositories; private and internal repositories remain intentionally omitted.
+- Synchronized the public-index check date to **2026-09-10** (German: **10.09.2026**) across README.md, profile/README.md, profile/README_de.md, and llms.txt.
+- Updated the .github public activity snapshot to reflect the latest commit push (2026-09-05 / 05.09.2026) and synchronized test assertions in 	ests/profile_parity.ps1.
+- Verified community issue routing, question form, and Mermaid architectural data-flow diagram syntax (0 errors across 9 files).
 
 ### Maintenance
 - Re-verified on 2026-09-05 through the public GitHub API that `.github` (`main`, latest observed public push 2026-08-25) and `FinancialProof` (`master`, latest observed public push 2026-07-25) are the only two active public repositories.

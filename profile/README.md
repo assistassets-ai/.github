@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-09-05 -->
+<!-- public-index-last-checked: 2026-09-10 -->
 
 <p align="center">
   🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
@@ -68,7 +68,7 @@ graph TD
 
 This public profile intentionally lists public repositories only. Private or internal repositories are intentionally omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-09-05**. No active public repository is missing from this directory.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-09-10**. No active public repository is missing from this directory.
 
 Additional local-first assistants are currently in private development and will be added to this directory once they are ready for public release.
 
@@ -93,7 +93,7 @@ Additional local-first assistants are currently in private development and will 
 | Project | Default branch | Latest public push | Public role |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active product repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-08-25 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-09-05 | Active organization profile and public index |
 
 ## Discovery Focus
 
