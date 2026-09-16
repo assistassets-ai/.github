@@ -5,6 +5,18 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.10] - 2026-09-16
+
+### Maintenance & Parity
+- Re-verified via live GitHub API that `FinancialProof` (`master`, latest observed push 2026-07-25) and `.github` (`main`, latest observed push 2026-09-16) are the only active public repositories.
+- Private and internal repository names and counts remain intentionally omitted under zero-leak policy.
+- Synchronized the public-index check date to **2026-09-16** (German: **16.09.2026**) across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Modernized `SECURITY.md` to bilingual standard with explicit 48-hour response SLA, 5-business-day triage commitment, official security contacts, and security invariants (Zero-Egress & Local-First, Unprivileged User Mode, Data Integrity, and No-Advice Boundary).
+- Expanded the Ecosystem & Network tables across English and German profiles and `llms.txt` to include sister organization `um-bruch` (Applied medicine, health policy, and clinical practice tools).
+- Enhanced Shields.io badge bands in English and German profile READMEs with Public Repositories (2), Security SLA (48h Response / 48h Antwort), and Verification date badges.
+- Added contract test suite `tests/test_profile_parity.py` using pytest covering markdown fence balance, public repository inventory, leak guards, timestamp parity, activity snapshot integrity, and ecosystem cross-linking.
+- Hardened repository hygiene with a comprehensive `.gitignore` preventing accidental commits of bytecode, caches, locks, and conflict copies.
+
 ## [1.0.9] - 2026-09-10
 
 ### Maintenance

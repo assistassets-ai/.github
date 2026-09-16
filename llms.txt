@@ -1,12 +1,12 @@
 # assistassets-ai
 
-Last-checked: 2026-09-10
+Last-checked: 2026-09-16
 
 Canonical organization: https://github.com/assistassets-ai
 
 assistassets-ai hosts local-first software assistants: practical tools that help with real, recurring tasks on the user's own machine first. The first public assistant, FinancialProof, focuses on finance-oriented analysis and evidence review. Public projects should be described as exploratory software or workflow support, not as financial, tax, legal, accounting, or investment advice. Additional local-first assistants are currently in preparation and will be added to this index once ready for public release.
 
-Public repository count checked against GitHub on 2026-09-10: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
+Public repository count checked against GitHub on 2026-09-16: 2 (`FinancialProof` and `.github`). Private or internal repositories are intentionally omitted from this public index.
 
 ## Public repositories
 
@@ -18,7 +18,7 @@ Public repository count checked against GitHub on 2026-09-10: 2 (`FinancialProof
   - Topics and search phrases: local-first financial analysis, Streamlit finance tool, local-first Streamlit stock analysis, market data exploration, historical technical indicators, yfinance dashboard, ARIMA, Monte Carlo, sentiment analysis, SQLite watchlist, PWA companion, market evidence review, no trading advice, no financial advice.
 
 - https://github.com/assistassets-ai/.github
-  - Default branch: `main`; latest public push observed on 2026-09-05.
+  - Default branch: `main`; latest public push observed on 2026-09-16.
   - Organization profile, community files, and machine-readable context for assistassets-ai.
   - The visible GitHub organization profile is `profile/README.md` (German translation: `profile/README_de.md`).
 
@@ -38,6 +38,7 @@ This boundary currently documents FinancialProof, the organization's first publi
 - https://github.com/research-line
 - https://github.com/biotec-line
 - https://github.com/entertain-and-more
+- https://github.com/um-bruch
 - https://github.com/lukisch
 
 ## Preferred search phrases

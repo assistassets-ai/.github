@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-09-10 -->
+<!-- public-index-last-checked: 2026-09-16 -->
 
 <p align="center">
   🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
@@ -11,13 +11,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/GitHub-assistassets--ai-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
+  <a href="https://github.com/assistassets-ai/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Public_Repos-2-blue?style=for-the-badge&logo=github" alt="Public Repositories" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks ecosystem" /></a>
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Domain-Local--First%20Assistants-008080?style=for-the-badge" alt="Local First Assistants" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Featured-FinancialProof-3776AB?style=for-the-badge&logo=python" alt="Featured: FinancialProof" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Tests-208%20Passed-4c1?style=for-the-badge" alt="208 Tests Passed" /></a>
+  <a href="https://github.com/assistassets-ai/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-brightgreen?style=for-the-badge" alt="Security SLA: 48h Response" /></a>
   <a href="#use-boundary"><img src="https://img.shields.io/badge/Policy-No--Advice%20Boundary-e74c3c?style=for-the-badge" alt="No Advice Boundary" /></a>
   <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Context-llms.txt-orange?style=for-the-badge" alt="llms.txt Context" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verified-2026--09--16-blue?style=for-the-badge" alt="Verified 2026-09-16" /></a>
+  <a href="README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=for-the-badge" alt="German Version" /></a>
 </p>
 
 <h3 align="center">Local-first software assistants — starting with finance-oriented evidence review and clear no-advice boundaries</h3>
@@ -68,7 +71,7 @@ graph TD
 
 This public profile intentionally lists public repositories only. Private or internal repositories are intentionally omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-09-10**. No active public repository is missing from this directory.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-09-16**. No active public repository is missing from this directory.
 
 Additional local-first assistants are currently in private development and will be added to this directory once they are ready for public release.
 
@@ -93,7 +96,7 @@ Additional local-first assistants are currently in private development and will 
 | Project | Default branch | Latest public push | Public role |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active product repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-09-05 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-09-16 | Active organization profile and public index |
 
 ## Discovery Focus
 
@@ -152,4 +155,5 @@ assistassets-ai is the local-first assistant branch of the broader local-first s
 | [research-line](https://github.com/research-line) | Scientific research, mathematical proofs, and open-science repositories |
 | [biotec-line](https://github.com/biotec-line) | Bioinformatics, VCF handling, and genetic data tools |
 | [entertain-and-more](https://github.com/entertain-and-more) | Terminal games, audio tools, and entertainment software |
+| [um-bruch](https://github.com/um-bruch) | Applied medicine, health policy, and clinical practice tools |
 | [lukisch](https://github.com/lukisch) | Personal GitHub developer profile |

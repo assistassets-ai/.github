@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & local state
+.env
+.venv
+env/
+venv/
+
+# Lock files & multi-host tokens
+LOCK*
+*.lock
+*conflict*
+*Konflikt*
+*WORKSTATION-LG*
+*ASUS-GEI*
+
+# Temporary files & logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

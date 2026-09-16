@@ -7,6 +7,7 @@ $files = @(
     (Join-Path $repoRoot 'profile/README_de.md'),
     (Join-Path $repoRoot 'llms.txt'),
     (Join-Path $repoRoot 'CHANGELOG.md'),
+    (Join-Path $repoRoot 'SECURITY.md'),
     (Join-Path $repoRoot 'tests/profile_parity.ps1')
 )
 $parityFiles = $files[0..3]
@@ -105,10 +106,10 @@ $english = $contents[$files[1]]
 $german = $contents[$files[2]]
 $llms = $contents[$files[3]]
 
-if (-not $root.Contains('2026-09-10')) { throw 'Root check date is not 2026-09-10' }
-if (-not $english.Contains('2026-09-10')) { throw 'English profile check date is not 2026-09-10' }
-if (-not $german.Contains('10.09.2026')) { throw 'German profile check date is not 10.09.2026' }
-if (-not $llms.Contains('Last-checked: 2026-09-10')) { throw 'llms check date is not 2026-09-10' }
+if (-not $root.Contains('2026-09-16')) { throw 'Root check date is not 2026-09-16' }
+if (-not $english.Contains('2026-09-16')) { throw 'English profile check date is not 2026-09-16' }
+if (-not $german.Contains('16.09.2026')) { throw 'German profile check date is not 16.09.2026' }
+if (-not $llms.Contains('Last-checked: 2026-09-16')) { throw 'llms check date is not 2026-09-16' }
 if (-not $root.Contains('local-first software assistants')) { throw 'Root assistant-family framing missing' }
 if (-not $english.Contains('local-first software assistants')) { throw 'English assistant-family framing missing' }
 if (-not $llms.Contains('local-first software assistants')) { throw 'llms assistant-family framing missing' }
@@ -118,11 +119,11 @@ if (-not $german.Contains('## Featured Assistant: FinancialProof')) { throw 'Ger
 if (-not $english.Contains('## Capability & Feature Matrix')) { throw 'English Capability & Feature Matrix missing' }
 if (-not $german.Contains('## Leistungs- und Feature-Matrix')) { throw 'German Leistungs- und Feature-Matrix missing' }
 foreach ($content in @($root, $english, $llms)) {
-    foreach ($needle in @('`master`', '`main`', '2026-07-25', '2026-09-05')) {
+    foreach ($needle in @('`master`', '`main`', '2026-07-25', '2026-09-16')) {
         if (-not $content.Contains($needle)) { throw "Public branch/activity snapshot missing '$needle'" }
     }
 }
-foreach ($needle in @('`master`', '`main`', '25.07.2026', '05.09.2026')) {
+foreach ($needle in @('`master`', '`main`', '25.07.2026', '16.09.2026')) {
     if (-not $german.Contains($needle)) { throw "German public branch/activity snapshot missing '$needle'" }
 }
 

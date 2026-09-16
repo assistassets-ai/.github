@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-09-10 -->
+<!-- public-index-last-checked: 2026-09-16 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -11,13 +11,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/GitHub-assistassets--ai-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
+  <a href="https://github.com/assistassets-ai/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Public_Repos-2-blue?style=for-the-badge&logo=github" alt="Öffentliche Repositories" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks Ökosystem" /></a>
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Dom%C3%A4ne-Local--First%20Assistenten-008080?style=for-the-badge" alt="Local First Assistenten" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Featured-FinancialProof-3776AB?style=for-the-badge&logo=python" alt="Featured: FinancialProof" /></a>
   <a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://img.shields.io/badge/Tests-208%20Bestanden-4c1?style=for-the-badge" alt="208 Tests Bestanden" /></a>
+  <a href="https://github.com/assistassets-ai/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Antwort-brightgreen?style=for-the-badge" alt="Sicherheits-SLA: 48h Antwort" /></a>
   <a href="#nutzungsgrenze"><img src="https://img.shields.io/badge/Policy-Keine--Finanzberatung-e74c3c?style=for-the-badge" alt="Keine Finanzberatung" /></a>
   <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Kontext-llms.txt-orange?style=for-the-badge" alt="llms.txt Kontext" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verifiziert-16.09.2026-blue?style=for-the-badge" alt="Verifiziert 16.09.2026" /></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=for-the-badge" alt="Englische Version" /></a>
 </p>
 
 <h3 align="center">Local-first Software-Assistenten — beginnend mit finanzorientierter Evidenzprüfung und klaren Grenzen gegen Finanzberatung</h3>
@@ -68,7 +71,7 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **10.09.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **16.09.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 
@@ -93,7 +96,7 @@ Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung un
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 25.07.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 05.09.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 16.09.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 
@@ -152,4 +155,5 @@ assistassets-ai bildet den Local-First-Assistenten-Zweig des breiteren Local-Fir
 | [research-line](https://github.com/research-line) | Wissenschaftliche Forschung, mathematische Beweise und Open-Science Repositories |
 | [biotec-line](https://github.com/biotec-line) | Bioinformatik, VCF-Handling und genetische Daten-Werkzeuge |
 | [entertain-and-more](https://github.com/entertain-and-more) | Terminal-Spiele, Audio-Tools und Entertainment-Software |
+| [um-bruch](https://github.com/um-bruch) | Angewandte Medizin, Gesundheitspolitik und Praxis-Werkzeuge |
 | [lukisch](https://github.com/lukisch) | Persönliches GitHub-Entwicklerprofil |
