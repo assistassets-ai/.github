@@ -11,10 +11,6 @@
 </p>
 
 <p align="center">
-  <img src="logo.jpg" alt="assistassets-ai logo" width="180" />
-</p>
-
-<p align="center">
   <a href="https://github.com/assistassets-ai/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Public_Repos-2-blue?style=for-the-badge&logo=github" alt="Public Repositories" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-0052CC?style=for-the-badge" alt="open-bricks ecosystem" /></a>
   <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Domain-Local--First%20Assistants-008080?style=for-the-badge" alt="Local First Assistants" /></a>
@@ -40,7 +36,7 @@ The first public assistant is **FinancialProof**, a finance-oriented evidence-re
 
 ## Featured Assistant: FinancialProof
 
-<p align="center"><a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner-b.png" alt="FinancialProof" width="680" style="border:2px solid #008080;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center"><a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner-b.png" alt="FinancialProof" width="100%" style="border:2px solid #008080;border-radius:8px;display:block;margin:0 auto"></a></p>
 
 FinancialProof is the organization's first public local-first assistant: a Streamlit-based workspace for historical market-pattern analysis, technical indicators, and evidence-oriented review, with a strict no-advice boundary.
 
