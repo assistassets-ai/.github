@@ -1,0 +1,613 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 680" width="2400" height="680">
+  <defs>
+    <!-- Background warm subtle gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="45%" stop-color="#fcf4e8"/>
+      <stop offset="100%" stop-color="#f7e1c6"/>
+    </linearGradient>
+
+    <!-- Warm ground baseline gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f2dac0"/>
+      <stop offset="50%" stop-color="#ebcfb0"/>
+      <stop offset="100%" stop-color="#f2dac0"/>
+    </linearGradient>
+
+    <!-- Ground shadow gradient under figures -->
+    <linearGradient id="groundShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9bc99" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ebcfb0" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Terminal header gradient -->
+    <linearGradient id="termHeaderGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141624"/>
+      <stop offset="100%" stop-color="#0f111c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect x="0" y="0" width="2400" height="680" fill="url(#bgGradient)"/>
+
+  <!-- Ground Plane -->
+  <rect x="0" y="585" width="2400" height="95" fill="url(#groundGrad)"/>
+  <rect x="0" y="585" width="2400" height="12" fill="url(#groundShadow)"/>
+  <line x1="0" y1="585" x2="2400" y2="585" stroke="#d5be9f" stroke-width="2.5" opacity="0.75"/>
+
+  <!-- ====================================================================== -->
+  <!-- TYPOGRAPHY                                                             -->
+  <!-- ====================================================================== -->
+  <!-- Wortmarke: assistassets -->
+  <text x="90" y="96" fill="#1a1a2e" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="58px" font-weight="800" letter-spacing="-1.2px">assistassets</text>
+
+  <!-- Tagline: woertlich aus Org-README -->
+  <text x="90" y="140" fill="#4d5069" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20.5px" font-weight="500" letter-spacing="-0.2px">Local-first software assistants — starting with finance-oriented evidence review and clear no-advice boundaries</text>
+
+  <!-- ====================================================================== -->
+  <!-- 9 SILHOUETTEN (von links nach rechts)                                  -->
+  <!-- ====================================================================== -->
+
+  <!-- 1. BUTLER MIT TABLETT -->
+  <g id="figure-1-butler">
+    <!-- Body, coat tails, legs, head, arm holding tray -->
+    <path d="
+      M 195 585
+      L 190 575
+      Q 192 530 196 460
+      Q 199 400 203 365
+      L 207 365
+      Q 216 330 216 305
+      Q 214 285 200 270
+      L 198 266
+      Q 204 260 204 253
+      L 207 248
+      L 211 243
+      L 207 240
+      L 203 234
+      Q 198 226 190 225
+      Q 177 227 175 238
+      Q 175 252 181 265
+      L 173 280
+      Q 166 300 162 340
+      Q 158 375 168 375
+      L 155 430
+      Q 146 470 148 495
+      L 160 495
+      Q 166 450 174 385
+      L 173 465
+      Q 170 525 165 575
+      L 155 585
+      L 192 585
+      L 192 575
+      L 200 575
+      L 230 585
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Butler right arm, bent 90 deg holding tray upwards -->
+    <path d="
+      M 198 285
+      Q 214 300 222 338
+      L 230 334
+      L 242 284
+      L 252 284
+      L 246 276
+      L 235 276
+      L 223 325
+      Q 212 305 202 282
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Butler white napkin draped over forearm -->
+    <path d="
+      M 224 326
+      L 221 370
+      Q 227 375 233 370
+      L 236 320
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Tray (Salver) -->
+    <rect x="210" y="272" width="94" height="6" rx="3" fill="#1a1a2e"/>
+
+    <!-- Domed Cloche on the tray -->
+    <path d="
+      M 225 272
+      C 225 240 289 240 289 272
+      Z
+    " fill="#1a1a2e"/>
+    <!-- Cloche round finial/handle -->
+    <circle cx="257" cy="237" r="5" fill="#1a1a2e"/>
+
+    <!-- Collar / Bowtie negative cutout -->
+    <polygon points="199,268 205,271 199,274" fill="#fdfbf7"/>
+    <polygon points="199,268 193,271 199,274" fill="#fdfbf7"/>
+    <circle cx="199" cy="271" r="1.5" fill="#1a1a2e"/>
+  </g>
+
+  <!-- 2. HAUSDAME MIT SCHLUESSELBUND -->
+  <g id="figure-2-hausdame">
+    <!-- Housekeeper silhouette: long Edwardian dress/skirt, bun, apron -->
+    <path d="
+      M 432 585
+      L 435 572
+      L 396 572
+      Q 408 470 420 395
+      Q 424 360 423 345
+      Q 418 310 422 280
+      L 428 268
+      L 431 256
+      L 438 255
+      L 436 248
+      L 442 243
+      L 436 236
+      Q 430 228 424 227
+      Q 414 228 410 236
+      Q 406 248 414 256
+      L 423 268
+      Q 432 270 436 280
+      Q 443 295 442 315
+      Q 438 335 435 345
+      Q 442 375 448 430
+      Q 458 505 468 572
+      L 458 572
+      L 462 585
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- High chignon bun at back of head -->
+    <circle cx="411" cy="238" r="12" fill="#1a1a2e"/>
+
+    <!-- Apron bow knot and sash ribbons at waist back -->
+    <path d="
+      M 423 345
+      C 410 338 406 352 422 355
+      C 412 360 415 375 423 358
+      Z
+    " fill="#1a1a2e"/>
+    <path d="M 420 354 Q 413 385 416 415 L 420 412 Q 417 385 423 356 Z" fill="#1a1a2e"/>
+
+    <!-- Right Arm extended forward holding keyring -->
+    <path d="
+      M 434 282
+      Q 443 305 447 332
+      L 476 342
+      L 478 350
+      L 456 348
+      L 442 338
+      Q 438 315 430 286
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Key Ring (Schluesselring) -->
+    <path d="
+      M 486 346
+      A 12 12 0 1 0 486 370
+      A 12 12 0 1 0 486 346
+      M 486 352
+      A 6 6 0 1 1 486 364
+      A 6 6 0 1 1 486 352
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Key 1: Main long skeleton key hanging down -->
+    <path d="
+      M 485 368
+      L 488 368
+      L 488 438
+      L 498 438
+      L 498 433
+      L 492 433
+      L 492 428
+      L 497 428
+      L 497 424
+      L 488 424
+      L 488 368
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Key 2: Angled skeleton key -->
+    <path d="
+      M 489 366
+      L 511 416
+      L 518 413
+      L 517 409
+      L 513 411
+      L 510 405
+      L 514 403
+      L 513 399
+      L 506 403
+      L 486 364
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Key 3: Shorter key angled left -->
+    <path d="
+      M 483 368
+      L 476 402
+      L 470 401
+      L 471 397
+      L 475 398
+      L 476 393
+      L 472 392
+      L 473 388
+      L 478 389
+      L 485 366
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Subtle apron waistline seam (negative contrast line) -->
+    <path d="M 425 345 Q 432 349 437 345" stroke="#fdfbf7" stroke-width="1.8" fill="none"/>
+  </g>
+
+  <!-- 3. GAERTNER MIT GIESSKANNE -->
+  <g id="figure-3-gaertner">
+    <!-- Gardener silhouette: wide hat, dungarees, boots -->
+    <path d="
+      M 645 585
+      L 640 575
+      Q 648 525 652 468
+      Q 657 415 660 375
+      L 655 350
+      Q 645 330 650 310
+      L 665 295
+      L 670 278
+      L 678 274
+      L 686 264
+      L 693 254
+      L 688 248
+      L 642 248
+      Q 640 244 656 242
+      L 662 225
+      Q 678 221 694 225
+      L 700 242
+      Q 718 244 716 248
+      L 685 248
+      L 682 275
+      L 692 295
+      Q 697 325 694 365
+      L 684 375
+      Q 686 425 688 472
+      Q 695 530 706 575
+      L 716 585
+      L 682 585
+      L 680 575
+      L 668 575
+      L 665 585
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Gardener right arm sloping down to watering can handle -->
+    <path d="
+      M 685 285
+      Q 704 310 710 338
+      L 726 395
+      L 718 398
+      L 702 344
+      Q 696 318 678 290
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Watering Can (Giesskanne) -->
+    <!-- Drum / Body -->
+    <path d="
+      M 706 448
+      L 754 448
+      L 758 532
+      Q 758 538 752 538
+      L 708 538
+      Q 702 538 702 532
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Overhead Arch Handle -->
+    <path d="
+      M 698 468
+      C 688 415 726 385 744 425
+      L 748 448
+      L 742 448
+      L 738 428
+      C 724 394 696 420 704 468
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Rear D-handle -->
+    <path d="
+      M 704 472
+      C 684 475 684 515 704 518
+      L 704 512
+      C 690 510 690 480 704 478
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Angled Spout and Rose (Sprinkler head) -->
+    <path d="
+      M 756 515
+      L 802 438
+      L 808 442
+      L 758 528
+      Z
+    " fill="#1a1a2e"/>
+    <!-- Rose (Brausekopf) tilted oval at spout tip -->
+    <ellipse cx="806" cy="438" rx="7" ry="14" transform="rotate(-30 806 438)" fill="#1a1a2e"/>
+  </g>
+
+  <!-- 4. WASCHMASCHINE -->
+  <g id="figure-4-waschmaschine">
+    <!-- Main appliance body -->
+    <rect x="845" y="352" width="170" height="230" rx="10" fill="#1a1a2e"/>
+
+    <!-- Leveling feet -->
+    <rect x="858" y="582" width="20" height="5" rx="2.5" fill="#1a1a2e"/>
+    <rect x="982" y="582" width="20" height="5" rx="2.5" fill="#1a1a2e"/>
+
+    <!-- Fascia / Control panel divider line -->
+    <line x1="845" y1="406" x2="1015" y2="406" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Detergent drawer (left) -->
+    <rect x="858" y="366" width="38" height="26" rx="4" fill="none" stroke="#fdfbf7" stroke-width="2"/>
+    <line x1="866" y1="379" x2="888" y2="379" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Rotary selector knob (center) -->
+    <circle cx="930" cy="379" r="14" fill="none" stroke="#fdfbf7" stroke-width="2.5"/>
+    <line x1="930" y1="368" x2="930" y2="375" stroke="#fdfbf7" stroke-width="2.5"/>
+
+    <!-- Digital display and status buttons (right) -->
+    <rect x="960" y="368" width="42" height="22" rx="3" fill="none" stroke="#fdfbf7" stroke-width="2"/>
+    <circle cx="970" cy="379" r="2" fill="#fdfbf7"/>
+    <circle cx="981" cy="379" r="2" fill="#fdfbf7"/>
+    <circle cx="992" cy="379" r="2" fill="#fdfbf7"/>
+
+    <!-- Big Center Porthole Door -->
+    <!-- Outer door ring -->
+    <circle cx="930" cy="482" r="54" fill="none" stroke="#fdfbf7" stroke-width="4"/>
+    <!-- Inner glass frame -->
+    <circle cx="930" cy="482" r="42" fill="#1a1a2e" stroke="#fdfbf7" stroke-width="2"/>
+    <!-- Drum interior swirl / baffle -->
+    <path d="M 910 462 Q 932 480 948 470 Q 936 496 918 494" fill="none" stroke="#fdfbf7" stroke-width="2.2" opacity="0.8"/>
+    <!-- Door handle indent -->
+    <rect x="975" y="474" width="5" height="16" rx="2.5" fill="#fdfbf7"/>
+
+    <!-- Lower plinth / toe kick seam -->
+    <line x1="850" y1="560" x2="1010" y2="560" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Drain filter hatch (bottom right) -->
+    <circle cx="985" cy="540" r="9" fill="none" stroke="#fdfbf7" stroke-width="2"/>
+  </g>
+
+  <!-- 5. SPUELMASCHINE -->
+  <g id="figure-5-spuelmaschine">
+    <!-- Main appliance body -->
+    <rect x="1085" y="352" width="170" height="230" rx="8" fill="#1a1a2e"/>
+
+    <!-- Leveling feet -->
+    <rect x="1098" y="582" width="18" height="5" rx="2.5" fill="#1a1a2e"/>
+    <rect x="1224" y="582" width="18" height="5" rx="2.5" fill="#1a1a2e"/>
+
+    <!-- Top Integrated Control Panel -->
+    <line x1="1085" y1="396" x2="1255" y2="396" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Cycle program indicators / touch buttons -->
+    <circle cx="1114" cy="374" r="4.5" fill="none" stroke="#fdfbf7" stroke-width="1.8"/>
+    <circle cx="1134" cy="374" r="4.5" fill="none" stroke="#fdfbf7" stroke-width="1.8"/>
+    <circle cx="1154" cy="374" r="4.5" fill="none" stroke="#fdfbf7" stroke-width="1.8"/>
+
+    <!-- LED Countdown / Status Display -->
+    <rect x="1174" y="366" width="34" height="17" rx="2.5" fill="none" stroke="#fdfbf7" stroke-width="1.8"/>
+    <line x1="1182" y1="374.5" x2="1200" y2="374.5" stroke="#fdfbf7" stroke-width="1.8"/>
+
+    <!-- Start/Pause Button -->
+    <circle cx="1230" cy="374" r="6.5" fill="none" stroke="#fdfbf7" stroke-width="1.8"/>
+    <polygon points="1228,370 1234,374 1228,378" fill="#fdfbf7"/>
+
+    <!-- Dishwasher Signature Horizontal Towel-Bar Handle -->
+    <rect x="1108" y="418" width="10" height="8" rx="2" fill="#fdfbf7"/>
+    <rect x="1222" y="418" width="10" height="8" rx="2" fill="#fdfbf7"/>
+    <rect x="1104" y="414" width="132" height="6.5" rx="3.25" fill="#fdfbf7"/>
+
+    <!-- Dishwasher door seams -->
+    <line x1="1094" y1="442" x2="1094" y2="542" stroke="#fdfbf7" stroke-width="1.5" opacity="0.4"/>
+    <line x1="1246" y1="442" x2="1246" y2="542" stroke="#fdfbf7" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Dish rack horizontal alignment line -->
+    <line x1="1130" y1="488" x2="1210" y2="488" stroke="#fdfbf7" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.5"/>
+
+    <!-- Recessed toe kick / plinth base -->
+    <line x1="1090" y1="556" x2="1250" y2="556" stroke="#fdfbf7" stroke-width="2"/>
+    <rect x="1095" y="557" width="150" height="25" fill="#121320" opacity="0.5"/>
+  </g>
+
+  <!-- 6. STAUBWEDEL (FEDERWEDEL) -->
+  <g id="figure-6-staubwedel">
+    <!-- Weighted ceramic/metal floor holder/stand -->
+    <path d="
+      M 1354 585
+      L 1406 585
+      L 1402 516
+      Q 1402 512 1398 512
+      L 1362 512
+      Q 1358 512 1358 516
+      Z
+    " fill="#1a1a2e"/>
+    <ellipse cx="1380" cy="512" rx="20" ry="4" fill="#1a1a2e" stroke="#fdfbf7" stroke-width="1.5"/>
+
+    <!-- Turned wooden handle -->
+    <rect x="1377" y="424" width="6" height="88" fill="#1a1a2e"/>
+    <!-- Handle grip rings -->
+    <circle cx="1380" cy="460" r="4.5" fill="#1a1a2e"/>
+    <circle cx="1380" cy="475" r="4.5" fill="#1a1a2e"/>
+
+    <!-- Metal ferrule collar -->
+    <rect x="1373" y="418" width="14" height="7" rx="2" fill="#1a1a2e"/>
+
+    <!-- Lush Ostrich Feather Plume (Silhouette) -->
+    <path d="
+      M 1373 420
+      C 1352 410 1332 388 1324 362
+      C 1318 348 1324 336 1336 342
+      C 1326 324 1336 314 1350 326
+      C 1344 308 1356 300 1368 312
+      C 1364 296 1380 294 1386 308
+      C 1394 294 1410 296 1406 314
+      C 1418 304 1430 314 1424 328
+      C 1436 316 1448 328 1438 346
+      C 1448 338 1454 350 1448 366
+      C 1438 388 1416 410 1387 420
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Fine feather interior barb cutouts (accent negative space) -->
+    <path d="M 1380 412 Q 1365 378 1348 355" stroke="#fdfbf7" stroke-width="1.8" fill="none" opacity="0.6"/>
+    <path d="M 1380 405 Q 1378 362 1370 325" stroke="#fdfbf7" stroke-width="1.8" fill="none" opacity="0.6"/>
+    <path d="M 1380 412 Q 1395 378 1412 355" stroke="#fdfbf7" stroke-width="1.8" fill="none" opacity="0.6"/>
+    <path d="M 1380 405 Q 1384 362 1392 325" stroke="#fdfbf7" stroke-width="1.8" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- 7. PUTZMOPP IM EIMER -->
+  <g id="figure-7-putzmopp">
+    <!-- Bucket Body (Tapered) -->
+    <path d="
+      M 1534 585
+      L 1630 585
+      L 1642 472
+      Q 1642 468 1638 468
+      L 1524 468
+      L 1512 468
+      Q 1510 472 1516 474
+      L 1522 474
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Bucket Rim band -->
+    <rect x="1520" y="468" width="122" height="9" rx="3" fill="#1a1a2e" stroke="#fdfbf7" stroke-width="1.5"/>
+
+    <!-- Bucket wire bail handle hanging down on left -->
+    <path d="
+      M 1522 474
+      C 1495 490 1492 530 1518 545
+    " fill="none" stroke="#1a1a2e" stroke-width="3"/>
+
+    <!-- Mop wringer basket mounted on right half of rim -->
+    <path d="
+      M 1584 442
+      L 1638 442
+      L 1640 468
+      L 1582 468
+      Z
+    " fill="#1a1a2e"/>
+    <!-- Wringer slots / sieve pattern -->
+    <line x1="1594" y1="446" x2="1594" y2="464" stroke="#fdfbf7" stroke-width="2"/>
+    <line x1="1606" y1="446" x2="1606" y2="464" stroke="#fdfbf7" stroke-width="2"/>
+    <line x1="1618" y1="446" x2="1618" y2="464" stroke="#fdfbf7" stroke-width="2"/>
+    <line x1="1630" y1="446" x2="1630" y2="464" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Mop head yarn / cotton strands draped in bucket and wringer -->
+    <path d="
+      M 1560 466
+      C 1550 485 1555 510 1572 505
+      C 1585 500 1582 475 1590 466
+      Z
+    " fill="#1a1a2e"/>
+    <path d="
+      M 1570 455
+      C 1560 480 1575 515 1595 510
+      C 1610 505 1605 470 1595 455
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Mop Handle angled up and left -->
+    <line x1="1574" y1="446" x2="1516" y2="268" stroke="#1a1a2e" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hanging end cap with loop hole -->
+    <circle cx="1514" cy="262" r="5" fill="#1a1a2e"/>
+    <circle cx="1514" cy="262" r="2" fill="#fdfbf7"/>
+  </g>
+
+  <!-- 8. SMARTPHONE -->
+  <g id="figure-8-smartphone">
+    <!-- Minimalist desk stand / dock on floor -->
+    <path d="
+      M 1740 585
+      L 1860 585
+      L 1850 572
+      L 1750 572
+      Z
+    " fill="#1a1a2e"/>
+
+    <!-- Phone outer body -->
+    <rect x="1745" y="374" width="110" height="202" rx="18" fill="#1a1a2e"/>
+
+    <!-- Side buttons -->
+    <rect x="1742" y="416" width="3" height="22" rx="1.5" fill="#1a1a2e"/>
+    <rect x="1742" y="446" width="3" height="22" rx="1.5" fill="#1a1a2e"/>
+    <rect x="1855" y="426" width="3" height="30" rx="1.5" fill="#1a1a2e"/>
+
+    <!-- Screen Bezel (negative contrast outline) -->
+    <rect x="1753" y="382" width="94" height="186" rx="12" fill="#1a1a2e" stroke="#fdfbf7" stroke-width="2"/>
+
+    <!-- Speaker ear slit -->
+    <line x1="1794" y1="388" x2="1806" y2="388" stroke="#fdfbf7" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Dynamic Island / camera pill -->
+    <rect x="1788" y="394" width="24" height="7" rx="3.5" fill="#fdfbf7"/>
+
+    <!-- Assistant Chat Bubble Silhouette inside screen -->
+    <path d="
+      M 1766 436
+      H 1824
+      A 8 8 0 0 1 1832 444
+      V 472
+      A 8 8 0 0 1 1824 480
+      H 1776
+      L 1766 490
+      V 444
+      A 8 8 0 0 1 1766 436
+      Z
+    " fill="none" stroke="#fdfbf7" stroke-width="2" opacity="0.75"/>
+
+    <!-- Three Assistant Dots inside bubble -->
+    <circle cx="1785" cy="458" r="3" fill="#fdfbf7" opacity="0.85"/>
+    <circle cx="1799" cy="458" r="3" fill="#fdfbf7" opacity="0.85"/>
+    <circle cx="1813" cy="458" r="3" fill="#fdfbf7" opacity="0.85"/>
+
+    <!-- Home Indicator Bar at bottom of screen -->
+    <line x1="1785" y1="558" x2="1815" y2="558" stroke="#fdfbf7" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 9. TERMINALFENSTER / KONSOLENFENSTER -->
+  <g id="figure-9-terminal">
+    <!-- Terminal Outer Shell -->
+    <rect x="1915" y="325" width="430" height="260" rx="10" fill="#1a1a2e"/>
+    <rect x="1915" y="325" width="430" height="260" rx="10" fill="none" stroke="#383c58" stroke-width="2"/>
+
+    <!-- Window Title Bar -->
+    <path d="
+      M 1915 335
+      A 10 10 0 0 1 1925 325
+      H 2335
+      A 10 10 0 0 1 2345 335
+      V 365
+      H 1915
+      Z
+    " fill="url(#termHeaderGrad)"/>
+    <line x1="1915" y1="365" x2="2345" y2="365" stroke="#25283d" stroke-width="1.5"/>
+
+    <!-- Three Window Control Dots -->
+    <circle cx="1938" cy="345" r="5.5" fill="#ff5f56"/>
+    <circle cx="1956" cy="345" r="5.5" fill="#ffbd2e"/>
+    <circle cx="1974" cy="345" r="5.5" fill="#27c93f"/>
+
+    <!-- Terminal Text Line 1 -->
+    <text x="1942" y="415" fill="#f1f5f9" font-family="Consolas, 'Cascadia Code', 'Fira Code', Menlo, Monaco, 'Courier New', monospace" font-size="15.5px" font-weight="600" letter-spacing="0.2px">claude --dangerously-skip-permissions</text>
+
+    <!-- Terminal Text Line 2 -->
+    <text x="1942" y="465" fill="#f1f5f9" font-family="Consolas, 'Cascadia Code', 'Fira Code', Menlo, Monaco, 'Courier New', monospace" font-size="15.5px" font-weight="600" letter-spacing="0.2px">codex</text>
+
+    <!-- Terminal Text Line 3 -->
+    <text x="1942" y="515" fill="#f1f5f9" font-family="Consolas, 'Cascadia Code', 'Fira Code', Menlo, Monaco, 'Courier New', monospace" font-size="15.5px" font-weight="600" letter-spacing="0.2px">agy</text>
+
+    <!-- Terminal Cursor next to agy -->
+    <rect x="1978" y="500" width="9" height="18" fill="#38bdf8" opacity="0.85"/>
+  </g>
+
+</svg>

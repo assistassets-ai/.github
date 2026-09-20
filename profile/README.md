@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <img src="banner.png" alt="assistassets-ai banner" width="100%" />
+</p>
+
+<p align="center">
   <img src="logo.jpg" alt="assistassets-ai logo" width="180" />
 </p>
 
