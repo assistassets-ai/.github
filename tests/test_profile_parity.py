@@ -32,6 +32,7 @@ PRIVATE_REPOS = [
     "UpToday",
     "PrivacyMailDesk",
     "routinika",
+    "mediplaner",
 ]
 
 
