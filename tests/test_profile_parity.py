@@ -31,6 +31,7 @@ PRIVATE_REPOS = [
     "DEV_FullAssistantHub_SUITE",
     "UpToday",
     "PrivacyMailDesk",
+    "routinika",
 ]
 
 
