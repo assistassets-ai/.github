@@ -40,7 +40,7 @@ The first public assistant is **FinancialProof**, a finance-oriented evidence-re
 
 ## Featured Assistant: FinancialProof
 
-<p align="center"><a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner.svg" alt="FinancialProof" width="680" style="border:2px solid #008080;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center"><a href="https://github.com/assistassets-ai/FinancialProof"><img src="https://raw.githubusercontent.com/assistassets-ai/FinancialProof/master/assets/banner-b.png" alt="FinancialProof" width="680" style="border:2px solid #008080;border-radius:8px;display:block;margin:0 auto"></a></p>
 
 FinancialProof is the organization's first public local-first assistant: a Streamlit-based workspace for historical market-pattern analysis, technical indicators, and evidence-oriented review, with a strict no-advice boundary.
 
