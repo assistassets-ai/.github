@@ -5,6 +5,17 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.11] - 2026-09-24
+
+### Maintenance & Health Audit
+- Re-verified via live GitHub API that `FinancialProof` (`master`, latest observed push 2026-09-22) and `.github` (`main`, latest observed push 2026-09-24) are the only 2 active public repositories.
+- Private and internal repository names and counts remain strictly omitted under zero-leak policy.
+- Synchronized the public-index check date to **2026-09-24** (German: **24.09.2026**) across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Synchronized latest push activity snapshot to 2026-09-22 (German: 22.09.2026) for FinancialProof and 2026-09-24 (German: 24.09.2026) for .github across all surfaces.
+- Updated public test coverage figures and badges to reflect FinancialProof's verified 208+ core tests (218+ Pytest passing and 151 Web Companion passing, 369+ total) and Python 3.11+ compatibility baseline.
+- Verified official organization banner assets (`profile/banner.png`, `profile/banner.svg`, `profile/logo.jpg` and FinancialProof's featured `assets/banner-b.png` / `assets/banner.svg` with HTTP 200 OK).
+- Expanded automated contract test suite `tests/test_profile_parity.py` to 9 tests (100% green in 0.08s) including new `test_banner_assets_integrity`, and updated PowerShell parity validation `tests/profile_parity.ps1`.
+
 ## [1.0.10] - 2026-09-16
 
 ### Maintenance & Parity

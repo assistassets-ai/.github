@@ -4,7 +4,7 @@ Organization profile and shared community files for [assistassets-ai](https://gi
 
 This repository controls the public profile text shown on the assistassets-ai GitHub organization page. The visible landing page lives in [`profile/README.md`](profile/README.md) (German version: [`profile/README_de.md`](profile/README_de.md)).
 
-Public index last checked: **2026-09-16**.
+Public index last checked: **2026-09-24**.
 
 ## Contents
 
@@ -30,19 +30,19 @@ Part of the broader [ellmos-ai](https://github.com/ellmos-ai), [open-bricks](htt
 
 This profile repository tracks the public assistassets-ai surface. Private or internal repositories are intentionally omitted from the public index.
 
-Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-09-16**.
+Current public index: **2 active public repositories** checked against the live GitHub organization on **2026-09-24**.
 
 | Repository | Stack & Coverage | Role |
 |---|---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.10+, Streamlit, yfinance, SQLite, PWA · 208 tests | First public local-first assistant: a Streamlit workspace for historical market-pattern analysis, technical indicators, yfinance data access, ARIMA, Monte Carlo, sentiment, optional ML/NLP modules, SQLite-backed state, offline/PWA exports, and evidence-oriented review |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.11+, Streamlit, yfinance, SQLite, PWA · 208+ tests | First public local-first assistant: a Streamlit workspace for historical market-pattern analysis, technical indicators, yfinance data access, ARIMA, Monte Carlo, sentiment, optional ML/NLP modules, SQLite-backed state, offline/PWA exports, and evidence-oriented review |
 | [`.github`](https://github.com/assistassets-ai/.github) | Markdown, Profile Assets, `llms.txt` | Organization landing page, shared community files, and machine-readable `llms.txt` context |
 
 ## Current Public Activity
 
 | Repository | Default branch | Latest public push | Public status |
 |---|---:|---:|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-07-25 | Active public product surface |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-09-16 | Active organization profile and public index |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-09-22 | Active public product surface |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-09-24 | Active organization profile and public index |
 
 ## Public Surface
 

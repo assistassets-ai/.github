@@ -93,9 +93,9 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-16 across profile files."""
-    expected_iso = "2026-09-16"
-    expected_de = "16.09.2026"
+    """Verify verification date 2026-09-24 across profile files."""
+    expected_iso = "2026-09-24"
+    expected_de = "24.09.2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -119,10 +119,10 @@ def test_activity_snapshot_integrity():
         assert repo in en_content
         assert repo in de_content
 
-    assert "2026-07-25" in en_content
-    assert "25.07.2026" in de_content
-    assert "2026-09-16" in en_content
-    assert "16.09.2026" in de_content
+    assert "2026-09-22" in en_content
+    assert "22.09.2026" in de_content
+    assert "2026-09-24" in en_content
+    assert "24.09.2026" in de_content
 
 
 def test_ecosystem_cross_linking():
@@ -153,3 +153,11 @@ def test_mermaid_diagram_syntax():
         subgraph_starts = len(re.findall(r"\bsubgraph\b", content))
         subgraph_ends = len(re.findall(r"^\s*end\s*$", content, flags=re.MULTILINE))
         assert subgraph_starts == subgraph_ends, f"Mismatched subgraph/end in {rel_path}"
+
+
+def test_banner_assets_integrity():
+    """Verify official profile banner and asset files exist and are non-empty."""
+    for asset_rel in ["profile/banner.png", "profile/banner.svg", "profile/logo.jpg"]:
+        asset_path = os.path.join(REPO_ROOT, asset_rel)
+        assert os.path.exists(asset_path), f"Missing profile asset: {asset_rel}"
+        assert os.path.getsize(asset_path) > 1000, f"Asset file too small: {asset_rel}"
