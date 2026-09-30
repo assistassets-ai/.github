@@ -33,6 +33,8 @@ PRIVATE_REPOS = [
     "PrivacyMailDesk",
     "routinika",
     "mediplaner",
+    "structoboard",
+    "versicherungsmanager",
 ]
 
 
@@ -93,9 +95,9 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-24 across profile files."""
-    expected_iso = "2026-09-24"
-    expected_de = "24.09.2026"
+    """Verify verification date 2026-09-30 across profile files."""
+    expected_iso = "2026-09-30"
+    expected_de = "30.09.2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -121,8 +123,8 @@ def test_activity_snapshot_integrity():
 
     assert "2026-09-22" in en_content
     assert "22.09.2026" in de_content
-    assert "2026-09-24" in en_content
-    assert "24.09.2026" in de_content
+    assert "2026-09-30" in en_content
+    assert "30.09.2026" in de_content
 
 
 def test_ecosystem_cross_linking():

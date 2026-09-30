@@ -5,6 +5,15 @@ All notable changes to the `assistassets-ai` organization profile and shared com
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.12] - 2026-09-30
+
+### Maintenance & Health Audit
+- Re-verified via live GitHub API that `FinancialProof` (`master`, latest observed push 2026-09-22) and `.github` (`main`, current profile maintenance push 2026-09-30) are the only 2 active public repositories.
+- Private and internal repository names and counts remain strictly omitted from public profile surfaces; the automated leak guard now covers the current private-name denylist without publishing those names in user-facing READMEs or `llms.txt`.
+- Synchronized the public-index check date to **2026-09-30** (German: **30.09.2026**) across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Synchronized the `.github` activity snapshot to 2026-09-30 while keeping the FinancialProof latest public push at 2026-09-22.
+- Re-ran profile parity and integrity checks after the refresh.
+
 ## [1.0.11] - 2026-09-24
 
 ### Maintenance & Health Audit
