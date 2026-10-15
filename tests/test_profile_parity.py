@@ -26,16 +26,7 @@ SISTER_ORGS = [
     "lukisch",
 ]
 
-PRIVATE_REPOS = [
-    "terminpilot",
-    "DEV_FullAssistantHub_SUITE",
-    "UpToday",
-    "PrivacyMailDesk",
-    "routinika",
-    "mediplaner",
-    "structoboard",
-    "versicherungsmanager",
-]
+
 
 
 def get_file_content(relative_path: str) -> str:
@@ -43,6 +34,26 @@ def get_file_content(relative_path: str) -> str:
     assert os.path.exists(path), f"File not found: {path}"
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
+
+
+
+def check_public_references(content: str, relative_path: str) -> None:
+    """Reject unknown organization URLs without storing internal names."""
+    public = {name.casefold() for name in PUBLIC_REPOS}
+    pattern = (
+        r"https://(?:github\.com/|raw\.githubusercontent\.com/|"
+        r"api\.github\.com/repos/)assistassets-ai/([A-Za-z0-9_.-]+)"
+    )
+    for name in re.findall(pattern, content, flags=re.IGNORECASE):
+        if name.removesuffix(".git").rstrip(".").casefold() not in public:
+            raise AssertionError(f"Unlisted repository reference in {relative_path}")
+    for name in os.environ.get("PROFILE_PRIVATE_REPO_DENYLIST", "").split(";"):
+        name = name.strip()
+        if name and re.search(
+            r"(?<![A-Za-z0-9_-])" + re.escape(name) + r"(?![A-Za-z0-9_-])",
+            content, flags=re.IGNORECASE,
+        ):
+            raise AssertionError(f"Externally denied repository reference in {relative_path}")
 
 
 def test_markdown_fence_balance():
@@ -90,8 +101,7 @@ def test_private_repo_leak_guard():
     ]
     for rel_path in target_files:
         content = get_file_content(rel_path)
-        for priv in PRIVATE_REPOS:
-            assert priv not in content, f'Leak violation: private repo "{priv}" found in {rel_path}'
+        check_public_references(content, rel_path)
 
 
 def test_check_timestamp_parity():

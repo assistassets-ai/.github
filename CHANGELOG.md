@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Replace the embedded internal-name denylist in the Python profile test with a
+  public repository allowlist and optional externally supplied denylist, matching
+  the PowerShell guard. Error messages omit rejected repository names.
+- Run profile and privacy contracts on Linux, Windows and macOS pull requests.
+  This change does not remove historical Git content or certify product privacy.
+
 All notable changes to the `assistassets-ai` organization profile and shared community context will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

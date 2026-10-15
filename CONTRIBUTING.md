@@ -24,6 +24,13 @@ Thank you for your interest in contributing! This guide applies to all repositor
 
 ## Code Style
 
+Profile checks run on Linux, Windows and macOS for pull requests. Locally run
+`python -X utf8 -m pytest -q` and `pwsh -File tests/profile_parity.ps1`.
+Both guards check organization repository URLs against the public allowlist.
+An optional semicolon-separated `PROFILE_PRIVATE_REPO_DENYLIST` environment
+variable can check plain names; keep its values outside tracked files. CI reads
+the optional repository secret of the same name and never requires it on forks.
+
 - **Python:** Follow ruff defaults, type hints encouraged
 - **JavaScript/TypeScript:** Follow prettier defaults
 - **Markdown:** One sentence per line for better diffs
