@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-09-30 -->
+<!-- public-index-last-checked: 2026-10-31 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -19,7 +19,7 @@
   <a href="https://github.com/assistassets-ai/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Antwort-brightgreen?style=for-the-badge" alt="Sicherheits-SLA: 48h Antwort" /></a>
   <a href="#nutzungsgrenze"><img src="https://img.shields.io/badge/Policy-Keine--Finanzberatung-e74c3c?style=for-the-badge" alt="Keine Finanzberatung" /></a>
   <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Kontext-llms.txt-orange?style=for-the-badge" alt="llms.txt Kontext" /></a>
-  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verifiziert-30.09.2026-blue?style=for-the-badge" alt="Verifiziert 30.09.2026" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verifiziert-31.10.2026-blue?style=for-the-badge" alt="Verifiziert 31.10.2026" /></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=for-the-badge" alt="Englische Version" /></a>
 </p>
 
@@ -71,13 +71,13 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **30.09.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **31.10.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 
 | Projekt | Stack & Abdeckung | Beschreibung |
 |---|---|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.11+, Streamlit, yfinance, SQLite, PWA · 208+ Tests | Erster öffentlicher local-first Streamlit-Assistent zur historischen Analyse von Finanzmarktmustern, technischen Indikatoren, Szenario-Untersuchungen, yfinance-Datenzugriff, SQLite-gestütztem Zustand, optionalen ML/NLP-Modulen, Offline/PWA-Exporten und evidenzorientierten Review-Workflows |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | Python 3.11+, Streamlit, yfinance, SQLite, PWA · 208+ Kern-Tests (218+ Pytest, 151 Web Companion) | Erster öffentlicher local-first Streamlit-Assistent zur historischen Analyse von Finanzmarktmustern, technischen Indikatoren, Szenario-Untersuchungen, yfinance-Datenzugriff, SQLite-gestütztem Zustand, optionalen ML/NLP-Modulen, Offline/PWA-Exporten und evidenzorientierten Review-Workflows |
 | [`.github`](https://github.com/assistassets-ai/.github) | Markdown, GitHub-Profil, `llms.txt` | Organisations-Startseite, gemeinsame Community-Dateien, Profil-Assets, Workflow-Templates und maschinenlesbarer `llms.txt`-Kontext |
 
 ## Leistungs- und Feature-Matrix
@@ -95,8 +95,8 @@ Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung un
 
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
-| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 22.09.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 30.09.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 15.10.2026 | Aktives Produkt-Repository |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 31.10.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 
