@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-10-31 -->
+<!-- public-index-last-checked: 2026-11-05 -->
 
 <p align="center">
   🌐 <a href="README.md"><strong>English</strong></a> | <strong>Deutsch</strong>
@@ -19,11 +19,22 @@
   <a href="https://github.com/assistassets-ai/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Antwort-brightgreen?style=for-the-badge" alt="Sicherheits-SLA: 48h Antwort" /></a>
   <a href="#nutzungsgrenze"><img src="https://img.shields.io/badge/Policy-Keine--Finanzberatung-e74c3c?style=for-the-badge" alt="Keine Finanzberatung" /></a>
   <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Kontext-llms.txt-orange?style=for-the-badge" alt="llms.txt Kontext" /></a>
-  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verifiziert-31.10.2026-blue?style=for-the-badge" alt="Verifiziert 31.10.2026" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verifiziert-05.11.2026-blue?style=for-the-badge" alt="Verifiziert 05.11.2026" /></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=for-the-badge" alt="Englische Version" /></a>
 </p>
 
 <h3 align="center">Local-first Software-Assistenten — beginnend mit finanzorientierter Evidenzprüfung und klaren Grenzen gegen Finanzberatung</h3>
+
+<p align="center">
+  <a href="#featured-assistant-financialproof"><strong>Featured Assistent</strong></a> • 
+  <a href="#architektur--datenfluss"><strong>Architektur</strong></a> • 
+  <a href="#einstieg"><strong>Einstieg</strong></a> • 
+  <a href="#öffentliches-repository-verzeichnis"><strong>Repositories</strong></a> • 
+  <a href="#leistungs--und-feature-matrix"><strong>Leistungsmatrix</strong></a> • 
+  <a href="#aktueller-aktivitäts-snapshot"><strong>Aktivität</strong></a> • 
+  <a href="#nutzungsgrenze"><strong>Sicherheitsgrenze</strong></a> • 
+  <a href="#ökosystem--netzwerk"><strong>Ökosystem</strong></a>
+</p>
 
 assistassets-ai entwickelt local-first Software-Assistenten: praxisnahe Werkzeuge, die bei wiederkehrenden, realen Aufgaben helfen – primär auf dem eigenen System des Nutzers, ohne persönliche oder fachbezogene Daten standardmäßig über Drittanbieter-Clouds zu leiten. Die öffentlichen Arbeiten betonen transparente Workflows, reproduzierbaren lokalen Zustand, überprüfbare Exporte und eine sorgfältige, fachbereichsgerechte Abgrenzung.
 
@@ -71,7 +82,7 @@ graph TD
 
 Dieses öffentliche Profil führt bewusst ausschließlich öffentliche Repositories auf. Private oder interne Repositories sind im öffentlichen Index bewusst nicht enthalten.
 
-Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **31.10.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
+Verifizierter öffentlicher Index: `FinancialProof` und `.github` wurden am **05.11.2026** mit der Live-Organisation auf GitHub abgeglichen. Es fehlt kein aktives öffentliches Repository.
 
 Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung und werden diesem Verzeichnis hinzugefügt, sobald sie für die Veröffentlichung bereit sind.
 
@@ -96,7 +107,7 @@ Weitere local-first Assistenten befinden sich derzeit in privater Entwicklung un
 | Projekt | Default-Branch | Letzter öffentlicher Push | Öffentliche Rolle |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 15.10.2026 | Aktives Produkt-Repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 31.10.2026 | Aktives Organisations-Profil und öffentlicher Index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 05.11.2026 | Aktives Organisations-Profil und öffentlicher Index |
 
 ## Auffindbarkeit & Fokus
 
@@ -140,6 +151,10 @@ Für Crawler und KI-Werkzeuge siehe [`llms.txt`](https://github.com/assistassets
 - Offline-first Finanz-Evidenz-Prüfung
 - risikobewusster Marktanalyse-Workspace
 - local-first Finanzassistent ohne Beratungsanspruch
+- local-first Python Software-Assistent
+- reproduzierbare Finanzanalyse lokal
+- Zero-Cloud Desktop Assistent
+- offline PWA Finanz-Begleiter
 
 ## Ökosystem & Netzwerk
 

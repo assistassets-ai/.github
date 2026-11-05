@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Maintenance & Health Audit
+### Maintenance & Health Audit (2026-11-05)
+- Re-verified via live GitHub API that `FinancialProof` (`master`, latest observed push 2026-10-15) and `.github` (`main`, current profile maintenance push 2026-11-05) remain the active public repositories (2 active public repositories in total).
+- Preserved zero-private-leak invariant: all 9 private and internal repositories remain strictly excluded from all public-facing profile documents and `llms.txt`.
+- Synchronized verification and check timestamps across all 5 profile surfaces to **2026-11-05** (German: **05.11.2026**).
+- Updated `.github` public activity snapshot to reflect **2026-11-05** (German: **05.11.2026**) while maintaining `FinancialProof` at 2026-10-15.
+- Added bilateral quick-jump navigation anchors across English and German profile landing pages to improve accessibility and human readability.
+- Expanded curated search phrases and discovery vocabulary in English and German profile READMEs and `llms.txt` for improved GitHub-native and external search visibility.
+- Updated automated profile parity contract suites (`tests/test_profile_parity.py` and `tests/profile_parity.ps1`) to assert 2026-11-05 timestamp alignment.
+
+### Maintenance & Health Audit (2026-10-31)
 - Re-verified via live GitHub API that `FinancialProof` (`master`, latest observed push 2026-10-15) and `.github` (`main`, current profile maintenance push 2026-10-31) are the only 2 active public repositories.
 - Zero-private-leak invariant preserved: All private and internal repositories remain strictly excluded from public profile documents, tables, and llms.txt.
 - Updated public activity snapshot timestamps to reflect FinancialProof (2026-10-15) and .github (2026-10-31).

@@ -106,10 +106,10 @@ $english = $contents[$files[1]]
 $german = $contents[$files[2]]
 $llms = $contents[$files[3]]
 
-if (-not $root.Contains('2026-10-31')) { throw 'Root check date is not 2026-10-31' }
-if (-not $english.Contains('2026-10-31')) { throw 'English profile check date is not 2026-10-31' }
-if (-not $german.Contains('31.10.2026')) { throw 'German profile check date is not 31.10.2026' }
-if (-not $llms.Contains('Last-checked: 2026-10-31')) { throw 'llms check date is not 2026-10-31' }
+if (-not $root.Contains('2026-11-05')) { throw 'Root check date is not 2026-11-05' }
+if (-not $english.Contains('2026-11-05')) { throw 'English profile check date is not 2026-11-05' }
+if (-not $german.Contains('05.11.2026')) { throw 'German profile check date is not 05.11.2026' }
+if (-not $llms.Contains('Last-checked: 2026-11-05')) { throw 'llms check date is not 2026-11-05' }
 if (-not $root.Contains('local-first software assistants')) { throw 'Root assistant-family framing missing' }
 if (-not $english.Contains('local-first software assistants')) { throw 'English assistant-family framing missing' }
 if (-not $llms.Contains('local-first software assistants')) { throw 'llms assistant-family framing missing' }
@@ -119,11 +119,11 @@ if (-not $german.Contains('## Featured Assistant: FinancialProof')) { throw 'Ger
 if (-not $english.Contains('## Capability & Feature Matrix')) { throw 'English Capability & Feature Matrix missing' }
 if (-not $german.Contains('## Leistungs- und Feature-Matrix')) { throw 'German Leistungs- und Feature-Matrix missing' }
 foreach ($content in @($root, $english, $llms)) {
-    foreach ($needle in @('`master`', '`main`', '2026-10-15', '2026-10-31')) {
+    foreach ($needle in @('`master`', '`main`', '2026-10-15', '2026-11-05')) {
         if (-not $content.Contains($needle)) { throw "Public branch/activity snapshot missing '$needle'" }
     }
 }
-foreach ($needle in @('`master`', '`main`', '15.10.2026', '31.10.2026')) {
+foreach ($needle in @('`master`', '`main`', '15.10.2026', '05.11.2026')) {
     if (-not $german.Contains($needle)) { throw "German public branch/activity snapshot missing '$needle'" }
 }
 
