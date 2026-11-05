@@ -1,6 +1,6 @@
 # assistassets-ai
 
-<!-- public-index-last-checked: 2026-10-31 -->
+<!-- public-index-last-checked: 2026-11-05 -->
 
 <p align="center">
   🌐 <strong>English</strong> | <a href="README_de.md"><strong>Deutsch</strong></a>
@@ -19,11 +19,22 @@
   <a href="https://github.com/assistassets-ai/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-brightgreen?style=for-the-badge" alt="Security SLA: 48h Response" /></a>
   <a href="#use-boundary"><img src="https://img.shields.io/badge/Policy-No--Advice%20Boundary-e74c3c?style=for-the-badge" alt="No Advice Boundary" /></a>
   <a href="https://github.com/assistassets-ai/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/Context-llms.txt-orange?style=for-the-badge" alt="llms.txt Context" /></a>
-  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verified-2026--10--31-blue?style=for-the-badge" alt="Verified 2026-10-31" /></a>
+  <a href="https://github.com/assistassets-ai"><img src="https://img.shields.io/badge/Verified-2026--11--05-blue?style=for-the-badge" alt="Verified 2026-11-05" /></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=for-the-badge" alt="German Version" /></a>
 </p>
 
 <h3 align="center">Local-first software assistants — starting with finance-oriented evidence review and clear no-advice boundaries</h3>
+
+<p align="center">
+  <a href="#featured-assistant-financialproof"><strong>Featured Assistant</strong></a> • 
+  <a href="#architecture--data-flow"><strong>Architecture</strong></a> • 
+  <a href="#start-here"><strong>Start Here</strong></a> • 
+  <a href="#public-repository-directory"><strong>Repositories</strong></a> • 
+  <a href="#capability--feature-matrix"><strong>Capability Matrix</strong></a> • 
+  <a href="#public-activity-snapshot"><strong>Activity</strong></a> • 
+  <a href="#use-boundary"><strong>Safety Boundary</strong></a> • 
+  <a href="#ecosystem--network"><strong>Ecosystem</strong></a>
+</p>
 
 assistassets-ai builds local-first software assistants: practical tools that help with real, recurring tasks on the user's own machine first, without routing personal or domain-specific data through third-party clouds by default. The public work emphasizes transparent workflows, reproducible local state, inspectable exports, and careful, domain-appropriate boundaries.
 
@@ -71,7 +82,7 @@ graph TD
 
 This public profile intentionally lists public repositories only. Private or internal repositories are intentionally omitted from the public index.
 
-Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-10-31**. No active public repository is missing from this directory.
+Verified public index: `FinancialProof` and `.github` were checked against the live GitHub organization on **2026-11-05**. No active public repository is missing from this directory.
 
 Additional local-first assistants are currently in private development and will be added to this directory once they are ready for public release.
 
@@ -96,7 +107,7 @@ Additional local-first assistants are currently in private development and will 
 | Project | Default branch | Latest public push | Public role |
 |---|---:|---:|---|
 | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) | `master` | 2026-10-15 | Active product repository |
-| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-10-31 | Active organization profile and public index |
+| [`.github`](https://github.com/assistassets-ai/.github) | `main` | 2026-11-05 | Active organization profile and public index |
 
 ## Discovery Focus
 
@@ -140,6 +151,10 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/assistassets-ai/
 - offline-first financial evidence review
 - risk-aware market analysis workspace
 - no-advice local finance assistant
+- local-first Python software assistant
+- reproducible financial research workspace
+- zero-cloud desktop financial tooling
+- offline PWA financial companion
 
 ## Ecosystem & Network
 
